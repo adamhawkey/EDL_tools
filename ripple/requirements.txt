@@ -1,0 +1,2 @@
+OpenTimelineIO==0.13.0
+pyaaf2==1.4.0
