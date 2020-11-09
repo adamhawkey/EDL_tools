@@ -1,8 +1,8 @@
-#### used for adding the correct lut to CC_layer-7 based on Avid luts in the * REEL comment.
+##  GT_prep_0.1.py
+#### used for adding 6 CC_layers and a CC_layer-7 with the correct LUT based on AVID luts copied to the * REEL comment.
 
-##### Usage:  
-
-##### python GT_prep_0.1.py (source EDL) (output EDL)
+#### Usage:  
+##### **python GT_prep_0.1.py (source EDL) (output EDL)**
 
 ##### example line of an EDL:
 003  A001C001 V     C        02:47:25:20 02:47:49:04 01:00:20:01 01:00:43:09 

@@ -5,13 +5,12 @@ version: ripple_0.1.py
 """
 import opentimelineio as otio
 import sys
-import copy
 
-inputfile, outputfile = sys.argv[1:]
+inputEDL, outputEDL = sys.argv[1:]
 
 EDIT_RATE = 24
 HOUR = 3600 * EDIT_RATE
-timeline = otio.adapters.read_from_file(inputfile)
+timeline = otio.adapters.read_from_file(inputEDL)
 for clip in timeline.each_clip():
     ripple = -HOUR + 100
 
@@ -28,5 +27,5 @@ for clip in timeline.each_clip():
         otio.opentime.from_frames(end_frame, EDIT_RATE)
     )
 
-otio.adapters.write_to_file(timeline, outputfile, adapter_name='cmx_3600', style='nucoda')
+otio.adapters.write_to_file(timeline, outputEDL, adapter_name='cmx_3600', style='nucoda')
 

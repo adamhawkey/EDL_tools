@@ -5,13 +5,12 @@ version: GT_prep_0.1.py
 """
 import opentimelineio as otio
 import sys
-import copy
 
-inputfile, outputfile = sys.argv[1:]
+inputEDL, outputEDL = sys.argv[1:]
 
 EDIT_RATE = 24
 HOUR = 3600 * EDIT_RATE
-timeline = otio.adapters.read_from_file(inputfile)
+timeline = otio.adapters.read_from_file(inputEDL)
 for clip in timeline.each_clip():
     
     edl_meta = clip.metadata.get('cmx_3600',{})
@@ -35,5 +34,5 @@ for clip in timeline.each_clip():
 
     comments.extend(nucoda_stack)
     
-otio.adapters.write_to_file(timeline, outputfile, adapter_name='cmx_3600', style='nucoda')
+otio.adapters.write_to_file(timeline, outputEDL, adapter_name='cmx_3600', style='nucoda')
 
