@@ -1,19 +1,20 @@
+ripple_0.1.py
+=====
 #### used for a custom ripple of the source IN from 01:00:??:?? to 00:00:??:??
 #### It will ignore source IN TC's that start with 00.
 #### uses the **adapter_name='cmx_3600', style='nucoda'** in case there are locators (need to test this)
 
 #### Usage:  
-
 ##### **python ripple_0.1.py (source EDL) (output EDL)**
 
 ##### example lines of an EDL:
-TITLE:   TOA_s002-006_ONLINE_102720 
+TITLE:   TOA_s002-006_ONLINE_102720
 FCM: NON-DROP FRAME
-000001  TOA_0101_S002_A0007_CMP_V03.MOV  V     C        01:00:00:00 01:00:01:19 01:00:24:05 01:00:26:00 
+000001  TOA_0101_S002_A0007_CMP_V03.MOV  V     C        01:00:00:00 01:00:01:19 01:00:24:05 01:00:26:00
 *SOURCE FILE: TOA_0101_S002_A0007_CMP_V03.MOV
-000002  TOA_0101_S002_A0008_CMP_V04.MOV  V     C        01:00:00:04 01:00:02:07 01:00:26:00 01:00:28:03 
+000002  TOA_0101_S002_A0008_CMP_V04.MOV  V     C        01:00:00:04 01:00:02:07 01:00:26:00 01:00:28:03
 *SOURCE FILE: TOA_0101_S002_A0008_CMP_V04.MOV
-000003  TOA_0101_S002_A0009_CMP_V03.MOV  V     C        01:00:00:00 01:00:05:15 01:00:28:03 01:00:33:18 
+000003  TOA_0101_S002_A0009_CMP_V03.MOV  V     C        01:00:00:00 01:00:05:15 01:00:28:03 01:00:33:18
 *SOURCE FILE: TOA_0101_S002_A0009_CMP_V03.MOV
 
 ##### would result in:
