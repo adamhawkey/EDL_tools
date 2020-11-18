@@ -35,4 +35,4 @@ for clip in timeline.each_clip():
     comments.extend(nucoda_stack)
     
 otio.adapters.write_to_file(timeline, outputEDL, adapter_name='cmx_3600', style='nucoda')
-
+#print(otio.adapters.write_to_string(timeline, adapter_name='cmx_3600'))

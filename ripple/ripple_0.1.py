@@ -32,6 +32,6 @@ for clip in timeline.each_clip():
     # print(clip.name, clip.source_range, clip.metadata)
     # I need to map the clip or tape name to the clip.name
     # print(start_frame + ripple, end_frame)
-# print(otio.adapters.write_to_string(timeline, adapter_name='cmx_3600', style='nucoda'))
+#print(otio.adapters.write_to_string(timeline))
 otio.adapters.write_to_file(timeline, outputEDL, adapter_name='cmx_3600', style='nucoda')
 
