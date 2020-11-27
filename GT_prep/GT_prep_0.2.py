@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-version: GT_prep_0.1.py
+version: GT_prep_0.2.py
 """
 import opentimelineio as otio
 import sys
