@@ -11,6 +11,8 @@ inputEDL, outputEDL = sys.argv[1:]
 EDIT_RATE = 24
 HOUR = 3600 * EDIT_RATE
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
+# ignore_timecode_mismatch=True deals with the source timecode and duration 
+# not matching the timebase.
 
 for clip in timeline.each_clip():
     
@@ -33,10 +35,6 @@ for clip in timeline.each_clip():
             lut_root, _ = lut_string.split('_SDR')
             lut_layer = 'NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut T:\\luts\\GoodTrouble\\{}_VLog_V2.cube'.format(lut_root)
             nucoda_stack.append(lut_layer)
-            '''
-            elif 'REEL: ':
-                pass
-            '''
 
     comments.extend(nucoda_stack)
     
