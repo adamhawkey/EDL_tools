@@ -1,0 +1,42 @@
+Isabel Yanes GT	01:01:07:21	V1	green	VFX - Fade In. Digitally create a tilt down, matte top to look like elevator. See Chase file for reference.	1
+Isabel Yanes GT	01:01:27:09	V1	green	VFX - RESPEED 200% TO 100% TO 200% - DYONTE MALIKA CAPOEIRA	1
+Isabel Yanes GT	01:07:40:08	V1	green	VFX - GT3001_SC47_Raj_CanWeTalk_V2.mov	1
+Isabel Yanes GT	01:07:43:10	V1	green	VFX - GT3001_SC47_Evan_CanWeTalk_V2.mov	1
+Isabel Yanes GT	01:10:51:04	V1	green	VFX - GT3001_SC38_Callie_ShouldWeTalk_V2.mov	1
+Isabel Yanes GT	01:11:01:10	V1	white	GT3001_SC38_ DA Rep-Is This Callie Adams Foster?	1
+Isabel Yanes GT	01:11:04:07	V1	white	GT3001_SC38_ DA Rep-I'm calling from the Assistant District Attorney's office. We'd like to speak with you regarding the recent breaking and entering incident that occured at your apartment involving Jerod Murphy.	1
+Isabel Yanes GT	01:11:13:12	V1	white	GT3001_SC38_ DA Rep-Not as the complainant, as a witness. Someone else is pressing charges.	1
+Isabel Yanes GT	01:14:56:08	V1	green	VFX - GT3001_SCA57_Raj_ImSorryAboutIsabellaNotConfused_V1.mov	1
+Isabel Yanes GT	01:15:05:14	V1	green	VFX - GT3001_SCA57_Mariana_ILoveYouToo_V2.mov 	1
+Isabel Yanes GT	01:15:15:00	V1	green	VFX - GT3001_SCA57_Mariana_ILoveYouToo_V1.mov	1
+Isabel Yanes GT	01:15:28:13	V1	green	VFX - GT3001_SC59_Mariana_HeyImInYourOffice_V3.mov	1
+Isabel Yanes GT	01:18:13:12	V1	green	VFX - CALLIE FACE TOUCHUP (ENTIRE SCENE?)	1
+Isabel Yanes GT	01:19:46:18	V1	green	VFX - JEROD'S BRUISE LOOKS FAKE	1
+Isabel Yanes GT	01:21:46:03	V1	green	VFX - PAINT OUT PHONE SCREEN	1
+Isabel Yanes GT	01:21:58:18	V1	green	VFX - PAINT OUT PHONE SCREEN	1
+Isabel Yanes GT	01:22:06:01	V1	green	IMG_0279.JPG IMG_0226.JPG IMG_0250.JPG	1
+Isabel Yanes GT	01:28:29:02	V1	green	VFX - SCREEN REPLACMENT - MALIKA ON SCREEN IMG_0168.mov Start TC: ~00:00:40:03 (framerate was variable 29.97)	1
+Isabel Yanes GT	01:28:32:02	V1	green	VFX -  SCREEN REPLACMENT - ISAAC ON SCREEN IMG_0164.mov Start TC: ~00:01:27:08 (framerate was variable 29.97)	1
+Isabel Yanes GT	01:29:40:22	V1	green	VFX - WIPE BEHIND MARIANA'S HEAD - A SIDE	1
+Isabel Yanes GT	01:29:41:19	V1	green	VFX - WIPE BEHIND MARIANA'S HEAD - B SIDE	1
+Isabel Yanes GT	01:30:08:13	V1	green	VFX - CROSSFADE - RAJ MARIANA ON ROOF	1
+Isabel Yanes GT	01:30:09:18	V1	green	VFX - CROSSFADE - EVAN CU	1
+Isabel Yanes GT	01:38:34:08	V1	green	VFX - PAINT OUT SPANKS ON GAEL	1
+Isabel Yanes GT	01:40:05:07	V1	green	VFX - RESPEED 100% TO 80% - FAN WIPE TRANSITION - A SIDE COURT ROOM	1
+Isabel Yanes GT	01:40:05:22	V1	green	VFX - FAN WIPE TRANSITION - B SIDE CAPOEIRA	1
+Isabel Yanes GT	01:40:06:00	V1	green	80%	1
+Isabel Yanes GT	01:40:40:22	V1	green	VFX - STUNT DOUBLE	1
+Isabel Yanes GT	01:40:56:08	V1	green	VFX - FAN WIPE TRANSITION - A SIDE CAPOEIRA	1
+Isabel Yanes GT	01:40:57:20	V1	green	VFX - FAN WIPE TRANSITION - A SIDE COURT ROOM	1
+GTS3_Dylan	01:42:00:04	V1	green	Main Title Textless	1
+Tillhouse	01:42:21:04	V1	green	VFX - Fade In. Digitally create a tilt down, matte top to look like elevator. See Chase file for reference.	1
+Isabel Yanes GT	01:42:40:11	V1	green	VFX - WIPE BEHIND MARIANA'S HEAD - A SIDE	1
+Isabel Yanes GT	01:42:44:08	V1	green	VFX - WIPE BEHIND MARIANA'S HEAD - B SIDE	1
+Isabel Yanes GT	01:42:49:07	V1	green	VFX - CROSSFADE - RAJ MARIANA ON ROOF	1
+Isabel Yanes GT	01:42:55:01	V1	green	VFX - CROSSFADE - EVAN CU	1
+Isabel Yanes GT	01:43:00:20	V1	green	VFX - RESPEED 100% TO 80% - FAN WIPE TRANSITION - A SIDE COURT ROOM	1
+Isabel Yanes GT	01:43:01:13	V1	green	80%	1
+Isabel Yanes GT	01:43:05:21	V1	green	VFX - FAN WIPE TRANSITION - B SIDE CAPOEIRA	1
+Isabel Yanes GT	01:43:13:20	V1	green	VFX - FAN WIPE TRANSITION - A SIDE CAPOEIRA	1
+Isabel Yanes GT	01:43:19:00	V1	green	VFX - FAN WIPE TRANSITION - A SIDE COURT ROOM	1
+Isabel Yanes GT	01:22:06:01	V2	green	VFX - PHONE SCREEN REPLACEMENT - PICTURES OF JEROD IMG_0279.JPG IMG_0226.JPG IMG_0250.JPG	1

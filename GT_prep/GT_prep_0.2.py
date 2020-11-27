@@ -1,12 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-version: GT_prep_0.1.py
+version: GT_prep_0.2.py
 """
 import opentimelineio as otio
 import sys
 
 inputEDL, outputEDL = sys.argv[1:]
+
+lut_space = ('VLog') # other option is SDR
+lut_version = ('V2')
+lut_ext = ('cube')
 
 EDIT_RATE = 24
 HOUR = 3600 * EDIT_RATE
@@ -33,7 +37,7 @@ for clip in timeline.each_clip():
         if 'REEL: GT_' in comment:
             _, lut_string = comment.split(": ")
             lut_root, _ = lut_string.split('_SDR')
-            lut_layer = 'NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut T:\\luts\\GoodTrouble\\{}_VLog_V2.cube'.format(lut_root)
+            lut_layer = 'NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut T:\\luts\\GoodTrouble\\{0}_{1}_{2}.{3}'.format(lut_root, lut_space, lut_version, lut_ext)
             nucoda_stack.append(lut_layer)
 
     comments.extend(nucoda_stack)
