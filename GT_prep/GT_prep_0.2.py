@@ -8,6 +8,7 @@ import sys
 
 inputEDL, outputEDL = sys.argv[1:]
 
+lut_path = ('T:\\luts\\GoodTrouble\\') # this is the local root path to the luts.
 lut_space = ('VLog') # other option is SDR
 lut_version = ('V2')
 lut_ext = ('cube')
@@ -37,7 +38,7 @@ for clip in timeline.each_clip():
         if 'REEL: GT_' in comment:
             _, lut_string = comment.split(": ")
             lut_root, _ = lut_string.split('_SDR')
-            lut_layer = 'NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut T:\\luts\\GoodTrouble\\{0}_{1}_{2}.{3}'.format(lut_root, lut_space, lut_version, lut_ext)
+            lut_layer = 'NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut {0}{1}_{2}_{3}.{4}'.format(lut_path, lut_root, lut_space, lut_version, lut_ext)
             nucoda_stack.append(lut_layer)
 
     comments.extend(nucoda_stack)
