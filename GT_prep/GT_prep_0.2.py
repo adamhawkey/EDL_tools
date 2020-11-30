@@ -8,9 +8,9 @@ import sys
 
 inputEDL, outputEDL = sys.argv[1:]
 
-lut_path = ('T:\\luts\\GoodTrouble\\') # this is the local root path to the luts.
+lut_path = ('T:\\luts\\GoodTrouble\\Season_3\\Season_03_VLog\\') # this is the local root path to the luts.
 lut_space = ('VLog') # other option is SDR
-lut_version = ('V2')
+lut_version = ('v2')
 lut_ext = ('cube')
 
 EDIT_RATE = 24
