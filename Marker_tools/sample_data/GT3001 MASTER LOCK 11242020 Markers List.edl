@@ -1,0 +1,49 @@
+TITLE: GT3001 MASTER LOCK 11242020 Markers List
+FCM: FILM
+* marker list generated with AvidMarkerList_to_Nucoda.py from "GT3001 MASTER LOCK 11242020 Markers List.txt"
+
+* LOC: 01:01:07:21 green   VFX - Fade In. Digitally create a tilt down, matte top to look like elevator. See Chase file for reference.
+* LOC: 01:01:27:09 green   VFX - RESPEED 200% TO 100% TO 200% - DYONTE MALIKA CAPOEIRA
+* LOC: 01:07:40:08 green   VFX - GT3001_SC47_Raj_CanWeTalk_V2.mov
+* LOC: 01:07:43:10 green   VFX - GT3001_SC47_Evan_CanWeTalk_V2.mov
+* LOC: 01:10:51:04 green   VFX - GT3001_SC38_Callie_ShouldWeTalk_V2.mov
+* LOC: 01:11:01:10 white   GT3001_SC38_ DA Rep-Is This Callie Adams Foster?
+* LOC: 01:11:04:07 white   GT3001_SC38_ DA Rep-I'm calling from the Assistant District Attorney's office. We'd like to speak with you regarding the recent breaking and entering incident that occured at your apartment involving Jerod Murphy.
+* LOC: 01:11:13:12 white   GT3001_SC38_ DA Rep-Not as the complainant, as a witness. Someone else is pressing charges.
+* LOC: 01:14:56:08 green   VFX - GT3001_SCA57_Raj_ImSorryAboutIsabellaNotConfused_V1.mov
+* LOC: 01:15:05:14 green   VFX - GT3001_SCA57_Mariana_ILoveYouToo_V2.mov 
+* LOC: 01:15:15:00 green   VFX - GT3001_SCA57_Mariana_ILoveYouToo_V1.mov
+* LOC: 01:15:28:13 green   VFX - GT3001_SC59_Mariana_HeyImInYourOffice_V3.mov
+* LOC: 01:18:13:12 green   VFX - CALLIE FACE TOUCHUP (ENTIRE SCENE?)
+* LOC: 01:19:46:18 green   VFX - JEROD'S BRUISE LOOKS FAKE
+* LOC: 01:21:46:03 green   VFX - PAINT OUT PHONE SCREEN
+* LOC: 01:21:58:18 green   VFX - PAINT OUT PHONE SCREEN
+* LOC: 01:22:06:01 green   IMG_0279.JPG IMG_0226.JPG IMG_0250.JPG
+* LOC: 01:28:29:02 green   VFX - SCREEN REPLACMENT - MALIKA ON SCREEN IMG_0168.mov Start TC: ~00:00:40:03 (framerate was variable 29.97)
+* LOC: 01:28:32:02 green   VFX -  SCREEN REPLACMENT - ISAAC ON SCREEN IMG_0164.mov Start TC: ~00:01:27:08 (framerate was variable 29.97)
+* LOC: 01:29:40:22 green   VFX - WIPE BEHIND MARIANA'S HEAD - A SIDE
+* LOC: 01:29:41:19 green   VFX - WIPE BEHIND MARIANA'S HEAD - B SIDE
+* LOC: 01:30:08:13 green   VFX - CROSSFADE - RAJ MARIANA ON ROOF
+* LOC: 01:30:09:18 green   VFX - CROSSFADE - EVAN CU
+* LOC: 01:38:34:08 green   VFX - PAINT OUT SPANKS ON GAEL
+* LOC: 01:40:05:07 green   VFX - RESPEED 100% TO 80% - FAN WIPE TRANSITION - A SIDE COURT ROOM
+* LOC: 01:40:05:22 green   VFX - FAN WIPE TRANSITION - B SIDE CAPOEIRA
+* LOC: 01:40:06:00 green   80%
+* LOC: 01:40:40:22 green   VFX - STUNT DOUBLE
+* LOC: 01:40:56:08 green   VFX - FAN WIPE TRANSITION - A SIDE CAPOEIRA
+* LOC: 01:40:57:20 green   VFX - FAN WIPE TRANSITION - A SIDE COURT ROOM
+* LOC: 01:42:00:04 green   Main Title Textless
+* LOC: 01:42:21:04 green   VFX - Fade In. Digitally create a tilt down, matte top to look like elevator. See Chase file for reference.
+* LOC: 01:42:40:11 green   VFX - WIPE BEHIND MARIANA'S HEAD - A SIDE
+* LOC: 01:42:44:08 green   VFX - WIPE BEHIND MARIANA'S HEAD - B SIDE
+* LOC: 01:42:49:07 green   VFX - CROSSFADE - RAJ MARIANA ON ROOF
+* LOC: 01:42:55:01 green   VFX - CROSSFADE - EVAN CU
+* LOC: 01:43:00:20 green   VFX - RESPEED 100% TO 80% - FAN WIPE TRANSITION - A SIDE COURT ROOM
+* LOC: 01:43:01:13 green   80%
+* LOC: 01:43:05:21 green   VFX - FAN WIPE TRANSITION - B SIDE CAPOEIRA
+* LOC: 01:43:13:20 green   VFX - FAN WIPE TRANSITION - A SIDE CAPOEIRA
+* LOC: 01:43:19:00 green   VFX - FAN WIPE TRANSITION - A SIDE COURT ROOM
+* LOC: 01:22:06:01 green   VFX - PHONE SCREEN REPLACEMENT - PICTURES OF JEROD IMG_0279.JPG IMG_0226.JPG IMG_0250.JPG
+
+001  Bars   V     C        00:58:00:00 00:58:30:00 00:58:00:00 00:58:30:00
+* LOC: 00:58:20:00 green   These are bars that can be deleted
