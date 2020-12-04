@@ -12,14 +12,18 @@ print(sys.argv[0])
 marker_list, outputEDL = sys.argv[1:]
 #file1 = open(marker_list, 'r')
 
+markerwriter = open(outputEDL, 'w')
+
 with open(marker_list, newline = '') as markers:
     # clean_markers = re.sub(r"[\x]", '_', markers) # trying to remove extra \x newline character.
     lines = csv.reader(markers, delimiter='\t')
     for line in lines:
-        #print(', '.join(line))
         name, timecode, layer, color, comment = line[:5]
-        #print(name, timecode, layer, color, comment)
-        print("* LOC:", timecode, color,' ', comment) #need to figure out the timeline vs. segment locator in Nucoda.
+        print('* LOC: {0} {1}   {2}'.format(timecode, color, comment))
+        edl_line = ('* LOC: {0} {1}   {2}\n'.format(timecode, color, comment))
+        markerwriter.write(edl_line)
+    
+markerwriter.close()
 
 '''
 # Unfortunately, Nucoda doesn't support markers at the end of an EDL, like some others.
