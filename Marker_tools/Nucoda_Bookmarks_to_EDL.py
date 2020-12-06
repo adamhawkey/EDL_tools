@@ -27,6 +27,10 @@ markerwriter = open(outputEDL, 'w')
 markerwriter.write(header1)
 markerwriter.write(header2)
 
+colours = 'red', 'green', 'blue', 'cyan', 'magenta', 'yellow', 'black', 'white'
+#this indexes the colour_number to the name of the colour
+#print(colours[0], '0', colours[1], '1', colours[2], '2', colours[3], '3', colours[4], '4', colours[5], '5', colours[6], '6', colours[7], '7')
+
 with open(nucoda_marker_list, newline = '') as markers:
     # clean_markers = re.sub(r"[\x]", '_', markers) # trying to remove extra \x newline character.
     lines = csv.reader(markers, delimiter=',')
@@ -34,7 +38,7 @@ with open(nucoda_marker_list, newline = '') as markers:
     next(lines) #skips the "Date, Time, Position, Description, Colour, Type, TimeCode" line.
     for line in lines:
         date, time, position, description, colour_number, marker_type, timecode = line[:7]
-        colour = colour_number
+        colour = colours[int(colour_number)]
         print('* LOC: {0} {1}   {2}'.format(timecode, colour, description))
         edl_line = ('* LOC: {0} {1}   {2}\n'.format(timecode, colour, description))
         markerwriter.write(edl_line)
