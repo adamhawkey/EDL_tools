@@ -5,6 +5,7 @@ version: GT_prep_0.2.py
 """
 import opentimelineio as otio
 import sys
+import re
 
 inputEDL, outputEDL = sys.argv[1:]
 
@@ -37,7 +38,14 @@ for clip in timeline.each_clip():
     for comment in comments:
         if 'REEL: GT_' in comment:
             _, lut_string = comment.split(": ")
-            lut_root, _ = lut_string.split('_SDR')
+            #print(lut_string)
+            lut_string_split = re.split(r'_SDR', lut_string)
+            #print(lut_string_split)
+            lut_string_chars = re.split(r'[^A-Za-z0-9_]+', lut_string_split[0])
+            print(lut_string_chars[0])
+            lut_root = lut_string_chars[0]
+            #print(lut_root)
+            print('{0} becomes {1}_{2}_{3}.{4}'.format(lut_string, lut_root, lut_space, lut_version, lut_ext))
             lut_layer = 'NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut {0}{1}_{2}_{3}.{4}'.format(lut_path, lut_root, lut_space, lut_version, lut_ext)
             nucoda_stack.append(lut_layer)
 
