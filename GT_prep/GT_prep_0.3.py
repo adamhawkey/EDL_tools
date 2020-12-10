@@ -42,7 +42,7 @@ for clip in timeline.each_clip():
             lut_string_split = re.split(r'_SDR', lut_string)
             #print(lut_string_split)
             lut_string_chars = re.split(r'[^A-Za-z0-9_]+', lut_string_split[0])
-            print(lut_string_chars[0])
+            #print(lut_string_chars[0])
             lut_root = lut_string_chars[0]
             #print(lut_root)
             print('{0} becomes {1}_{2}_{3}.{4}'.format(lut_string, lut_root, lut_space, lut_version, lut_ext))
