@@ -1,0 +1,100 @@
+Timeline Bookmarks
+Date, Time, Position, Description, Colour, Type, TimeCode
+11/12/2020, 13:57:46.828, 135514, missed retime or something that Dylan will need to re-deliver, 3, Composition, 01:34:06:10
+11/12/2020, 14:32:58.191, 86755, Replace this with the comped shot from 3001, 0, Composition, 01:00:14:19
+11/12/2020, 14:32:58.191, 91082, VFX_Aspect ratio letterboxing effect, 0, Composition, 01:03:15:02
+11/12/2020, 14:32:58.191, 91103, COLOR_Color adjustment (See chase file) begin crossfade, 0, Composition, 01:03:15:23
+11/12/2020, 14:32:58.191, 91106, COLOR_Color adjustment (See chase file) end crossfade, 0, Composition, 01:03:16:02
+11/12/2020, 14:32:58.191, 91107, VFX_Continue aspect ratio letterboxing effect until 01:03:35:03, 0, Composition, 01:03:16:03
+11/12/2020, 14:32:58.191, 91166, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:18:14
+11/12/2020, 14:32:58.191, 91198, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:19:22
+11/12/2020, 14:32:58.191, 91263, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:22:15
+11/12/2020, 14:32:58.191, 91305, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:24:09
+11/12/2020, 14:32:58.191, 91405, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:28:13
+11/12/2020, 14:32:58.191, 91434, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:29:18
+11/12/2020, 14:32:58.191, 91464, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:31:00
+11/12/2020, 14:32:58.191, 91495, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:32:07
+11/12/2020, 14:32:58.191, 91505, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:32:17
+11/12/2020, 14:32:58.191, 91524, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:33:12
+11/12/2020, 14:32:58.191, 91540, COLOR_Color Adjustment (See chase file), 0, Composition, 01:03:34:04
+11/12/2020, 14:32:58.191, 91562, VFX_last frame of aspect ratio letterboxing effect, 0, Composition, 01:03:35:02
+11/12/2020, 14:32:58.191, 94943, The light reflection on the picture has been fixed in Color, 1, Composition, 01:05:55:23
+11/12/2020, 14:32:58.191, 95740, Door - remove blue taped off portion, 0, Composition, 01:06:29:04
+11/12/2020, 14:32:58.192, 97236, Window - reflection on desk, 0, Composition, 01:07:31:12
+11/12/2020, 14:32:58.192, 97698, Door - remove blue taped off portion, 0, Composition, 01:07:50:18
+11/12/2020, 14:32:58.192, 98923, graffiti on elevator. Intentional or muddy up?, 0, Composition, 01:08:41:19
+11/12/2020, 14:32:58.192, 100157, window, 0, Composition, 01:09:33:05
+11/12/2020, 14:32:58.192, 100208, window, 0, Composition, 01:09:35:08
+11/12/2020, 14:32:58.192, 100945, VFX_Single frame white flash transition, 0, Composition, 01:10:06:01
+11/12/2020, 14:32:58.192, 100946, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:06:02
+11/12/2020, 14:32:58.192, 100989, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:07:21
+11/12/2020, 14:32:58.192, 101024, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:09:08
+11/12/2020, 14:32:58.192, 101045, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:10:05
+11/12/2020, 14:32:58.192, 101062, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:10:22
+11/12/2020, 14:32:58.192, 101089, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:12:01
+11/12/2020, 14:32:58.192, 101132, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:13:20
+11/12/2020, 14:32:58.192, 101162, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:15:02
+11/12/2020, 14:32:58.192, 101189, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:16:05
+11/12/2020, 14:32:58.192, 101219, COLOR_Color adjustment (See chase file), 0, Composition, 01:10:17:11
+11/12/2020, 14:32:58.192, 101307, VFX_Single Frame White Flash Transition, 0, Composition, 01:10:21:03
+11/12/2020, 14:32:58.192, 102240, Speed Ramp_from 24FPS to 48FPS - start here, 0, Composition, 01:11:00:00
+11/12/2020, 14:32:58.192, 102267, Speed Ramp_from 24FPS to 48FPS - 48FPS here, 0, Composition, 01:11:01:03
+11/12/2020, 14:32:58.192, 102491, STABILIZE SIGN??, 0, Composition, 01:11:10:11
+11/12/2020, 14:32:58.192, 103993, TELL ADAM TO MATCH HER NEXT TO FACE (MAKEUP COLOR IS OFF), 0, Composition, 01:12:13:01
+11/12/2020, 14:32:58.192, 104775, VFX_Screen Replacement - IMG_0172.MOV - TC 01:02:33:03, 0, Composition, 01:12:45:15
+11/12/2020, 14:32:58.192, 104875, VFX_Screen Replacement - IMG_0172.MOV - TC 01:00:51:09, 0, Composition, 01:12:49:19
+11/12/2020, 14:32:58.192, 107221, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:27:13
+11/12/2020, 14:32:58.192, 107313, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:31:09
+11/12/2020, 14:32:58.192, 107368, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:33:16
+11/12/2020, 14:32:58.192, 107443, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:36:19
+11/12/2020, 14:32:58.192, 107508, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:39:12
+11/12/2020, 14:32:58.192, 107558, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:41:14
+11/12/2020, 14:32:58.192, 107597, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:43:05
+11/12/2020, 14:32:58.192, 107650, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:45:10
+11/12/2020, 14:32:58.192, 107730, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:48:18
+11/12/2020, 14:32:58.192, 107785, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:51:01
+11/12/2020, 14:32:58.192, 107839, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:53:07
+11/12/2020, 14:32:58.192, 107884, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:55:04
+11/12/2020, 14:32:58.192, 107911, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:56:07
+11/12/2020, 14:32:58.192, 107941, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:57:13
+11/12/2020, 14:32:58.192, 107969, COLOR_Color adjustment (See chase file), 0, Composition, 01:14:58:17
+11/12/2020, 14:32:58.192, 108019, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:00:19
+11/12/2020, 14:32:58.192, 108068, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:02:20
+11/12/2020, 14:32:58.193, 108103, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:04:07
+11/12/2020, 14:32:58.193, 108141, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:05:21
+11/12/2020, 14:32:58.193, 108190, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:07:22
+11/12/2020, 14:32:58.193, 108266, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:11:02
+11/12/2020, 14:32:58.193, 108317, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:13:05
+11/12/2020, 14:32:58.193, 108368, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:15:08
+11/12/2020, 14:32:58.193, 108425, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:17:17
+11/12/2020, 14:32:58.193, 108478, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:19:22
+11/12/2020, 14:32:58.193, 108566, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:23:14
+11/12/2020, 14:32:58.193, 108629, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:26:05
+11/12/2020, 14:32:58.193, 108682, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:28:10
+11/12/2020, 14:32:58.193, 108853, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:35:13
+11/12/2020, 14:32:58.193, 108907, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:37:19
+11/12/2020, 14:32:58.193, 108952, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:39:16
+11/12/2020, 14:32:58.193, 108991, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:41:07
+11/12/2020, 14:32:58.193, 109030, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:42:22
+11/12/2020, 14:32:58.193, 109085, COLOR_Color adjustment (See chase file), 0, Composition, 01:15:45:05
+11/12/2020, 14:32:58.193, 120202, VFX_Remove users 'pr0udboyy' and 'Maga_UsA_99' - are we replacing with something else??, 0, Composition, 01:23:28:10
+11/12/2020, 14:32:58.193, 121118, I think this is same graphic used in previous shot. Blow up to confirm users are not visible?, 0, Composition, 01:24:06:14
+11/12/2020, 14:32:58.193, 124528, Remove BOOM (Done in Color), 1, Composition, 01:26:28:16
+11/12/2020, 14:32:58.193, 134964, VFX_Screen Burn-in_DA HANSEN COLLUDED_FINAL.mov, 0, Composition, 01:33:43:12
+11/12/2020, 14:32:58.193, 135061, COLOR_B&W, 0, Composition, 01:33:47:13
+11/12/2020, 14:32:58.193, 135335, VFX_Screen Replacement (need file name for this), 0, Composition, 01:33:58:23
+11/12/2020, 14:32:58.193, 135413, VFX_Screen Replacement, 0, Composition, 01:34:02:05
+11/12/2020, 14:32:58.193, 135578, VFX_Screen Replacement, 0, Composition, 01:34:09:02
+11/12/2020, 14:32:58.193, 135593, VFX_Screen Replacement, 0, Composition, 01:34:09:17
+11/12/2020, 14:32:58.193, 135643, VFX_Screen Replacement, 0, Composition, 01:34:11:19
+11/12/2020, 14:32:58.193, 135739, VFX_Screen Replacement, 0, Composition, 01:34:15:19
+11/12/2020, 14:32:58.193, 135763, VFX_Screen Replacement, 0, Composition, 01:34:16:19
+11/12/2020, 14:32:58.193, 135821, VFX_Screen Replacement, 0, Composition, 01:34:19:05
+11/12/2020, 14:32:58.193, 135960, VFX_Screen Replacement, 0, Composition, 01:34:25:00
+11/12/2020, 14:32:58.193, 136715, VFX_Remove Hand_There's useful clip at the end of the timeline for this, 0, Composition, 01:34:56:11
+11/12/2020, 14:32:58.193, 140085, VFX_Screen Replacement, 0, Composition, 01:37:16:21
+11/12/2020, 15:25:12.389, 139228, strangereflection in the windows of the hallway leading to the doors, 3, Composition, 01:36:41:04
+11/12/2020, 15:56:59.326, 143634, This section of the VAM is wrong from 01:39:44:18 thru 01:39:56:09, 3, Composition, 01:39:44:18
+11/12/2020, 16:06:36.390, 144434, This section of the VAM is wrong from 01:40:18:02 thru 01:40:25:12, 3, Composition, 01:40:18:02
+11/12/2020, 17:43:46.840, 147715, This shot of the VAM is wrong, 3, Composition, 01:42:34:19
+11/12/2020, 17:45:41.406, 147856, This shot of the VAM is wrong, 3, Composition, 01:42:40:16
