@@ -1,0 +1,107 @@
+{
+    "OTIO_SCHEMA": "Timeline.1",
+    "metadata": {},
+    "name": "TestTimeline",
+    "global_start_time": null,
+    "tracks": {
+        "OTIO_SCHEMA": "Stack.1",
+        "metadata": {},
+        "name": "tracks",
+        "source_range": null,
+        "effects": [],
+        "markers": [],
+        "children": [
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "V",
+                "source_range": null,
+                "effects": [],
+                "markers": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Clip.1",
+                        "metadata": {},
+                        "name": "Bars",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 77.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "media_reference": {
+                            "OTIO_SCHEMA": "ExternalReference.1",
+                            "metadata": {},
+                            "name": "",
+                            "available_range": null,
+                            "target_url": "file://test_EXRs/Bars/Bars.00066.exr"
+                        }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.1",
+                        "metadata": {},
+                        "name": "ColorGreen",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 96.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "media_reference": {
+                            "OTIO_SCHEMA": "ExternalReference.1",
+                            "metadata": {},
+                            "name": "",
+                            "available_range": null,
+                            "target_url": "file://test_EXRs/ColorGreen/ColorGreen.000006.exr"
+                        }
+                    },
+                    {
+                        "OTIO_SCHEMA": "Clip.1",
+                        "metadata": {},
+                        "name": "ColorRed_",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 106.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 0.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [],
+                        "media_reference": {
+                            "OTIO_SCHEMA": "MissingReference.1",
+                            "metadata": {},
+                            "name": "",
+                            "available_range": null
+                        }
+                    }
+                ],
+                "kind": "Video"
+            }
+        ]
+    }
+}
