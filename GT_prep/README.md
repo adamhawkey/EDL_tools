@@ -25,3 +25,11 @@
 * NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut T:\luts\GoodTrouble\GT_COTERIE_NIGHT_02_LC_SDR_V2_3.cube
 
 
+Note:
+Need to add a function to auto conform titles.
+1. strip dissolves
+2. remove black events
+3. extend head and tail of each clip to cover dissolve.
+4. Insert title names
+
+I wish there was a way to choose in Nucoda EDL whether to interp source as single frame or sequence.
