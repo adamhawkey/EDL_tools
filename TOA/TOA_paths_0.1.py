@@ -33,13 +33,13 @@ for clip in timeline.each_clip():
     clipname_full = clip.name
     #print('* FROM CLIP NAME: {0}'.format(clipname_full))
     clipname = clipname_full.split(sep)[0]
-    framenum = clipname_full.split(sep)[1]
-    firstframe = framenum[1:5]
+    framerange = clipname_full.split(sep)[1]
+    firstframe = framerange[1:5]  # I could also search for the number up to the '-'
     filepath = ('/{0}/{0}.{1}.{2}'.format(clipname, firstframe, extension))
     print(cwd, filepath)
     clip.media_reference = otio.schema.ExternalReference(
-            target_url=cwd + filepath,  # I need to replace the target_url with pwd.
-            available_range=None  # we don't know the available range
+            target_url = cwd + filepath,  # I need to replace the target_url with pwd.
+            available_range = None  # we don't know the available range
         )
 
 otio.adapters.write_to_file(timeline, outputEDL, adapter_name='cmx_3600', style='nucoda')
