@@ -4,69 +4,43 @@
 version: TOA_paths_0.1.py
 """
 # adding paths and filenames to Resolve generated EDL.
+# Will eventually match exr's to "* FROM/TO CLIP NAME:" comment in EDL.
+
+# we are going to force the names into the EDL since we know most of the info.
+# The path to the EXR's should be relative to the cwd you run the script from.
+# Eventually, I will add the glob.glob() search recursive for the EXR's
 
 import opentimelineio as otio
-import sys
-import re
+import glob
+import argparse
+import os
 
-inputEDL, outputEDL = sys.argv[1:]
+parser = argparse.ArgumentParser()
+parser.add_argument('-i', '--input', help="Name of EDL to read")
+parser.add_argument('-o', '--output', help="Name of EDL to write")
+args = parser.parse_args()
+print('Attempting to conform sources to {0}, and writing {1}'.format(args.input, args.output))
 
-print('reading {}'.format(inputEDL))
+cwd = os.getcwd()
+extension = 'exr'
+sep = '.'
+
+inputEDL, outputEDL = (args.input, args.output)
+
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
 
 for clip in timeline.each_clip():
-    print(clip, '\n')
-    #_, clip_name_full = comment.split(": ")
-    #print(clip_name_full)
-    #edl_meta = clip.metadata.get('cmx_3600',{})
-    #print(edl_meta)
+    clipname_full = clip.name
+    #print('* FROM CLIP NAME: {0}'.format(clipname_full))
+    clipname = clipname_full.split(sep)[0]
+    framenum = clipname_full.split(sep)[1]
+    firstframe = framenum[1:5]
+    filepath = ('/{0}/{0}.{1}.{2}'.format(clipname, firstframe, extension))
+    print(cwd, filepath)
+    clip.media_reference = otio.schema.ExternalReference(
+            target_url=cwd + filepath,  # I need to replace the target_url with pwd.
+            available_range=None  # we don't know the available range
+        )
 
-comment_type = ['* FROM FILE: ']
-print(comment_type)
-    #comments = edl_meta
-    #comments = edl_meta.get('comments', [])
-    #clip_name_root = re.split(r'.[', comments)
-    #print(comments)
-    
-
-    #for comment in comments:
-        #if '* FROM CLIP NAME: ' in comment:   # may need to look for TO FILE NAME: also
-            #_, clip_name_full = comment.split(": ")
-            #print(clip_name_full)
-            #clip_name_root = re.split(r'.[', clip_name)
-            #clip_name_chars = re.split(r'[^A-Za-z0-9_]+', clip_name_root[0])
-            #print(clip_name_chars[0])
-            #lut_root = clip_name_chars[0]
-            #print('{0} becomes {1}_{2}_{3}.{4}'.format(clip_name, lut_root, lut_space, lut_version, lut_ext))
-            #lut_layer = 'NUCODA_LAYER GT_LUT -effect NucodaCMSPath -lut {0}{1}_{2}_{3}.{4}'.format(lut_path, lut_root, lut_space, lut_version, lut_ext)
-            #comment_type.append(lut_layer)
-
-comments.extend(comment_type)
-
-#otio.adapters.write_to_file(timeline, outputEDL, adapter_name='cmx_3600', style='nucoda')
-
-'''
-for clip in timeline.each_clip():
-    # edl_meta = clip.metadata.get('cmx_3600', {})
-    # comments = edl_meta.get('comments', [])
-    
-    #ripple = -HOUR + 100
-
-    start_frame = clip.source_range.start_time.value
-
-    # SRC TC is less than an hour - don't ripple
-    if start_frame < HOUR:
-        ripple = 100
-
-    end_frame = start_frame + clip.source_range.duration.value + ripple
-    
-    clip.source_range = otio.opentime.range_from_start_end_time(
-        otio.opentime.from_frames(start_frame + ripple, EDIT_RATE),
-        otio.opentime.from_frames(end_frame, EDIT_RATE)
-    )
-    # print(clip.name, clip.source_range, clip.metadata)
-    # I need to map the clip or tape name to the clip.name
-    # print(start_frame + ripple, end_frame)
-#print(otio.adapters.write_to_string(timeline))
 otio.adapters.write_to_file(timeline, outputEDL, adapter_name='cmx_3600', style='nucoda')
-'''
+print('wrote file: {}'.format(outputEDL))
