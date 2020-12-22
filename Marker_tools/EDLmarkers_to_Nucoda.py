@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-version: AvidMarkerList_to_Nucoda.py
+version: EDLMarkers_to_Nucoda.py
 """
-# This works for importing an Avid Marker List (text file), tab delimited,
+# This works for importing an EDL Marker List
 # as a single event EDL, with markers preceding it.  Import and select 
 # Import Bookmarks from EDL.
 
 # import opentimelineio as otio
-import opentimelineio as otio
 import sys
 import csv
 import re
@@ -21,8 +20,6 @@ header2 = ('FCM: FILM \n')
 footer1 = ('001  Bars   V     C        00:58:00:00 00:58:30:00 00:58:00:00 00:58:30:00\n')
 footer2 = ('* LOC: 00:58:20:00 green   Dummy clip that can be deleted\n')
 
-EDIT_RATE = 24
-HOUR = 3600 * EDIT_RATE
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
 # ignore_timecode_mismatch=True deals with the source timecode and duration 
 # not matching the timebase.
