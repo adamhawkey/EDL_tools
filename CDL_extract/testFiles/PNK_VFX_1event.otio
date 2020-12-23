@@ -1,0 +1,116 @@
+{
+    "OTIO_SCHEMA": "Timeline.1",
+    "metadata": {},
+    "name": "PNK_VFX Turnover_20201214 - EDL",
+    "global_start_time": null,
+    "tracks": {
+        "OTIO_SCHEMA": "Stack.1",
+        "metadata": {},
+        "name": "tracks",
+        "source_range": null,
+        "effects": [],
+        "markers": [],
+        "children": [
+            {
+                "OTIO_SCHEMA": "Track.1",
+                "metadata": {},
+                "name": "V",
+                "source_range": {
+                    "OTIO_SCHEMA": "TimeRange.1",
+                    "duration": {
+                        "OTIO_SCHEMA": "RationalTime.1",
+                        "rate": 24.0,
+                        "value": 124.0
+                    },
+                    "start_time": {
+                        "OTIO_SCHEMA": "RationalTime.1",
+                        "rate": 24.0,
+                        "value": -86423.0
+                    }
+                },
+                "effects": [],
+                "markers": [],
+                "children": [
+                    {
+                        "OTIO_SCHEMA": "Clip.1",
+                        "metadata": {
+                            "cdl": {
+                                "asc_sat": 1.0,
+                                "asc_sop": {
+                                    "offset": [
+                                        0.08465,
+                                        0.091547,
+                                        0.0954
+                                    ],
+                                    "power": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "slope": [
+                                        0.57635,
+                                        0.569453,
+                                        0.5656
+                                    ]
+                                }
+                            },
+                            "cmx_3600": {
+                                "comments": [
+                                    "SOURCE FILE: A027_06151634_C007"
+                                ],
+                                "reel": "A027_06151634_C007"
+                            }
+                        },
+                        "name": "A027_06151634_C007.SUB.01",
+                        "source_range": {
+                            "OTIO_SCHEMA": "TimeRange.1",
+                            "duration": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 124.0
+                            },
+                            "start_time": {
+                                "OTIO_SCHEMA": "RationalTime.1",
+                                "rate": 24.0,
+                                "value": 1432723.0
+                            }
+                        },
+                        "effects": [],
+                        "markers": [
+                            {
+                                "OTIO_SCHEMA": "Marker.2",
+                                "metadata": {
+                                    "cmx_3600": {
+                                        "color": "CYAN"
+                                    }
+                                },
+                                "name": "PNK_K1214_REH_080",
+                                "color": "CYAN",
+                                "marked_range": {
+                                    "OTIO_SCHEMA": "TimeRange.1",
+                                    "duration": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 1.0,
+                                        "value": 0.0
+                                    },
+                                    "start_time": {
+                                        "OTIO_SCHEMA": "RationalTime.1",
+                                        "rate": 24.0,
+                                        "value": 86464.0
+                                    }
+                                }
+                            }
+                        ],
+                        "media_reference": {
+                            "OTIO_SCHEMA": "MissingReference.1",
+                            "metadata": {},
+                            "name": "",
+                            "available_range": null
+                        }
+                    }
+                ],
+                "kind": "Video"
+            }
+        ]
+    }
+}

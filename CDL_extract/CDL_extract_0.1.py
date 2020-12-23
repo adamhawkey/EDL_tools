@@ -34,6 +34,9 @@ for clip in timeline.each_clip():
     asc_slope = asc_sop['slope']
     asc_offset = asc_sop['offset']
     asc_power = asc_sop['power']
+    markers = clip.markers('Markers.2', {})
+    print(markers)
+'''
     outputCDL = ('{}.cdl'.format(clipname))
     # write the output cdl file
     writeCDL = open(outputCDL, 'w')
@@ -52,3 +55,4 @@ for clip in timeline.each_clip():
     writeCDL.write('    </ColorDecision>\n')
     writeCDL.write('</ColorDecisionList>\n')
     writeCDL.close()
+'''
