@@ -5,6 +5,18 @@ version: CDL_extract_0.1.py
 """
 ### will write individual CDL files from a CDL-EDL (a least the kind that gets sent to Culley)
 
+### I need to doctor the edl's first to take the *LOC name as the CDL file name.
+### I think it may be because of no space between * and LOC, not sure.
+###
+### To delete the *FROM CLIP NAME: line
+'''
+(\*FROM CLIP NAME:  )([A-Za-z0-9_\-]+)
+replace with nothing
+
+To find *LOC comments and change them to *FROM CLIP NAME:
+(\*LOC:)([ ]+[A-Za-z0-9_\-:]+[ ])([A-Z ]+)([A-Za-z0-9_]+)
+*FROM CLIP NAME: PNK\4
+'''
 import opentimelineio as otio
 import sys
 import re
