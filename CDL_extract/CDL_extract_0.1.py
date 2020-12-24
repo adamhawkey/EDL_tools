@@ -4,19 +4,9 @@
 version: CDL_extract_0.1.py
 """
 ### will write individual CDL files from a CDL-EDL (a least the kind that gets sent to Culley)
-
 ### I need to doctor the edl's first to take the *LOC name as the CDL file name.
 ### I think it may be because of no space between * and LOC, not sure.
-###
-### To delete the *FROM CLIP NAME: line
-'''
-(\*FROM CLIP NAME:  )([A-Za-z0-9_\-]+)
-replace with nothing
 
-To find *LOC comments and change them to *FROM CLIP NAME:
-(\*LOC:)([ ]+[A-Za-z0-9_\-:]+[ ])([A-Z ]+)([A-Za-z0-9_]+)
-*FROM CLIP NAME: PNK\4
-'''
 import opentimelineio as otio
 import sys
 import re
@@ -26,20 +16,13 @@ _, inputEDL = sys.argv[:]
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
 # ignore_timecode_mismatch=True deals with the source timecode and duration 
 
-for clip in timeline.each_clip():
-    clipname = clip.name
-    cdl = clip.metadata.get('cdl', {})
-    asc_sat = cdl['asc_sat']
-    asc_sop = cdl['asc_sop']
-    asc_slope = asc_sop['slope']
-    asc_offset = asc_sop['offset']
-    asc_power = asc_sop['power']
-    markers = clip.markers('Markers.2', {})
-    print(markers)
-'''
+def writeCDL():
+	#writes individual .cdl files in current folder
     outputCDL = ('{}.cdl'.format(clipname))
     # write the output cdl file
     writeCDL = open(outputCDL, 'w')
+    writeCDL.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+    writeCDL.write('<ViewingDescription>written with CDL_extract by Adam Hawkey</ViewingDescription>\n')
     writeCDL.write('<ColorDecisionList xmnls="urn:ASC:CDL:v1.01">\n')
     writeCDL.write('    <ColorDecision>\n')
     writeCDL.write('        <ColorCorrection>\n')
@@ -55,4 +38,16 @@ for clip in timeline.each_clip():
     writeCDL.write('    </ColorDecision>\n')
     writeCDL.write('</ColorDecisionList>\n')
     writeCDL.close()
-'''
+
+for clip in timeline.each_clip():
+    clipname = clip.name
+    cdl = clip.metadata['cdl']
+    markers = clip.markers
+    asc_sat = cdl['asc_sat']
+    asc_sop = cdl['asc_sop']
+    asc_slope = asc_sop['slope']
+    asc_offset = asc_sop['offset']
+    asc_power = asc_sop['power']
+    #print(markers)
+    #write the output cdl file.
+    writeCDL()
