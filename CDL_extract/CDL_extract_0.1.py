@@ -3,9 +3,10 @@
 """
 version: CDL_extract_0.1.py
 """
-### will write individual CDL files from a CDL-EDL (a least the kind that gets sent to Culley)
-### I need to doctor the edl's first to take the *LOC name as the CDL file name.
-### I think it may be because of no space between * and LOC, not sure.
+### Will write individual CDL files from a CDL-EDL (a least the kind that gets sent to Culley).
+### If the edl uses different CDL values for different events with the same source file, source clip, or reel,
+### there isn't a good way to name the .cdl's without the possibility of overwriting earlier events.  We can use the
+### Locator name if it's provided, like: *LOC: 01:00:02:16 CYAN    PNK_K1214_REH_080
 
 import opentimelineio as otio
 import sys
@@ -40,6 +41,7 @@ def writeCDL():
     writeCDL.close()
 
 for clip in timeline.each_clip():
+    edl_meta = clip.metadata.get('cmx_3600',{})
     clipname = clip.name
     cdl = clip.metadata['cdl']
     markers = clip.markers
@@ -48,6 +50,6 @@ for clip in timeline.each_clip():
     asc_slope = asc_sop['slope']
     asc_offset = asc_sop['offset']
     asc_power = asc_sop['power']
-    #print(markers)
+    #print(edl_meta['reel'])
     #write the output cdl file.
     writeCDL()
