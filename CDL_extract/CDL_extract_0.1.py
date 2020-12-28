@@ -11,17 +11,21 @@ version: CDL_extract_0.1.py
 import opentimelineio as otio
 import sys
 import re
+import os
 
-_, inputEDL = sys.argv[:]
+inputEDL = sys.argv[1]
 
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
 # ignore_timecode_mismatch=True deals with the source timecode and duration 
+
+outFolder, ext = inputEDL.split('.', 1)
+os.mkdir(outFolder)  # Need to add exception so that if folder exists, it warns you.
 
 def writeCDL():
 	#writes individual .cdl files in current folder
     outputCDL = ('{}.cdl'.format(markers))
     # write the output cdl file
-    writeCDL = open(outputCDL, 'w')
+    writeCDL = open("{0}/{1}".format(outFolder, outputCDL), 'w')
     writeCDL.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     writeCDL.write('<ViewingDescription>written with CDL_extract by Adam Hawkey</ViewingDescription>\n')
     writeCDL.write('<ColorDecisionList xmnls="urn:ASC:CDL:v1.01">\n')
@@ -41,10 +45,10 @@ def writeCDL():
     writeCDL.close()
 
 for clip in timeline.each_clip():
-    edl_meta = clip.metadata.get('cmx_3600',{})
+    #edl_meta = clip.metadata.get('cmx_3600',{})    # Not necessary for this particular script
     clipname = clip.name
-    cdl = clip.metadata['cdl']
     markers = clip.markers[0].name
+    cdl = clip.metadata['cdl']
     asc_sat = cdl['asc_sat']
     asc_sop = cdl['asc_sop']
     asc_slope = asc_sop['slope']
