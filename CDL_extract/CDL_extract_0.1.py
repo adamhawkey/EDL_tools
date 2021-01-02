@@ -1,8 +1,9 @@
 #!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 """
-version: CDL_extract_0.1.py
+Usage:  CDL_extract_0.1.py {EDL name}
 """
+
 ### Will write individual CDL files from a CDL-EDL (a least the kind that gets sent to Culley).
 ### If the edl uses different CDL values for different events with the same source file, source clip, or reel,
 ### the only way to name the .cdl's without the possibility of overwriting earlier events is to
@@ -13,19 +14,30 @@ import sys
 import re
 import os
 
+if len(sys.argv) < 2:
+    print('Not enough arguments.', __doc__)
+    sys.exit()
 inputEDL = sys.argv[1]
 
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
-# ignore_timecode_mismatch=True deals with the source timecode and duration 
+# ignore_timecode_mismatch=True (allows source tc and dur to not match record tc)
 
 outFolder, ext = inputEDL.split('.', 1)
-os.mkdir(outFolder)  # Need to add exception so that if folder exists, it warns you.
+try:
+    os.mkdir(outFolder)  # if folder exists, it warns you and exits.
+except: 
+    print('folder exists, shall we continue?')
+    answer = input('[Y or N]')
+    if answer == 'Y':
+        print('writing to pre-existing directory: {}'.format(outFolder))
+        pass
+    elif answer == 'N':
+        print('exiting program')
+        exit()
 
-def writeCDL():
-	#writes individual .cdl files in current folder
+def writeCDL():     #writes individual .cdl files in current folder
     outputCDL = ('{}.cdl'.format(markers))
-    # write the output cdl file
-    writeCDL = open("{0}/{1}".format(outFolder, outputCDL), 'w')
+    writeCDL = open("{0}/{1}".format(outFolder, outputCDL), 'w')    # write the output cdl file
     writeCDL.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     writeCDL.write('<ViewingDescription>written with CDL_extract by Adam Hawkey</ViewingDescription>\n')
     writeCDL.write('<ColorDecisionList xmnls="urn:ASC:CDL:v1.01">\n')
@@ -45,14 +57,12 @@ def writeCDL():
     writeCDL.close()
 
 for clip in timeline.each_clip():
-    #edl_meta = clip.metadata.get('cmx_3600',{})    # Not necessary for this particular script
     clipname = clip.name
-    markers = clip.markers[0].name
+    markers = clip.markers[0].name  # I still can't understand why markers isn't parsed into metadata.
     cdl = clip.metadata['cdl']
     asc_sat = cdl['asc_sat']
     asc_sop = cdl['asc_sop']
     asc_slope = asc_sop['slope']
     asc_offset = asc_sop['offset']
     asc_power = asc_sop['power']
-    #write the output cdl file.
-    writeCDL()
+    writeCDL()  #write the output cdl file.
