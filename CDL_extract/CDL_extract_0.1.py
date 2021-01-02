@@ -37,6 +37,7 @@ except:
 
 def writeCDL():     #writes individual .cdl files in current folder
     outputCDL = ('{}.cdl'.format(markers))
+    print('writing: {}'.format(outputCDL))
     writeCDL = open("{0}/{1}".format(outFolder, outputCDL), 'w')    # write the output cdl file
     writeCDL.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     writeCDL.write('<ViewingDescription>written with CDL_extract by Adam Hawkey</ViewingDescription>\n')
