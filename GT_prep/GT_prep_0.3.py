@@ -13,9 +13,10 @@ lut_path = ('T:\\luts\\GoodTrouble\\Season_3\\Season_03_VLog\\') # this is the l
 lut_space = ('VLog') # other option is SDR
 lut_version = ('v2')
 lut_ext = ('cube')
-
+'''
 EDIT_RATE = 24
 HOUR = 3600 * EDIT_RATE
+'''
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
 # ignore_timecode_mismatch=True deals with the source timecode and duration 
 # not matching the timebase.
