@@ -22,7 +22,9 @@ inputEDL = sys.argv[1]
 timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
 # ignore_timecode_mismatch=True (allows source tc and dur to not match record tc)
 
+num = 0
 outFolder, ext = inputEDL.split('.', 1)
+'''
 try:
     os.mkdir(outFolder)  # if folder exists, it warns you and exits.
 except: 
@@ -56,14 +58,22 @@ def writeCDL():     #writes individual .cdl files in current folder
     writeCDL.write('    </ColorDecision>\n')
     writeCDL.write('</ColorDecisionList>\n')
     writeCDL.close()
-
+'''
 for clip in timeline.each_clip():
+    print(clip)
     clipname = clip.name
-    markers = clip.markers[0].name  # I still can't understand why markers isn't parsed into metadata.
+    print(clipname)
+    try:
+        markers = clip.markers[0].name  # I still can't understand why markers isn't parsed into metadata.
+    except:
+        markers = '{0}_{1}'.format(clipname, num)  #this is only if there is no locator present.  will not help if there are multiple clips with same clipname.
+        num = num + 1   #this increments the value after the name incase there is a duplicate.  Would be better if I checked if an identical filename exists, and only increment then.
+    print(markers)
     cdl = clip.metadata['cdl']
+    print(cdl)
     asc_sat = cdl['asc_sat']
     asc_sop = cdl['asc_sop']
     asc_slope = asc_sop['slope']
     asc_offset = asc_sop['offset']
     asc_power = asc_sop['power']
-    writeCDL()  #write the output cdl file.
+    #writeCDL()  #write the output cdl file.
