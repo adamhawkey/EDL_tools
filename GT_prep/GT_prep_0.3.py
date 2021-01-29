@@ -3,6 +3,9 @@
 """
 version: GT_prep_0.3.py
 """
+
+# This script is very specific to the show Good Trouble.
+
 import opentimelineio as otio
 import sys
 import re

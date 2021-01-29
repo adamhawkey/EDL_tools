@@ -4,7 +4,7 @@
 version: EDLMarkers_to_Nucoda.py
 """
 # This works for importing an EDL Marker List
-# as a single event EDL, with markers preceding it.  Import and select 
+# as a single event EDL, with markers preceding it.  Import EDL and select:
 # Import Bookmarks from EDL.
 
 import sys
