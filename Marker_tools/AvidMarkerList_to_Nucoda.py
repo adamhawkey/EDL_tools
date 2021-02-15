@@ -11,6 +11,7 @@ version: AvidMarkerList_to_Nucoda.py
 import sys
 import csv
 import re
+import os
 
 print(sys.argv[0])
 marker_list, outputEDL = sys.argv[1:]
@@ -26,12 +27,17 @@ markerwriter.write(header1)
 markerwriter.write(header2)
 
 with open(marker_list, newline = '') as markers:
-    # clean_markers = re.sub(r"[\x]", '_', markers) # trying to remove extra \x newline character.
+    #clean_markers = re.sub(r"[\x]", '_', markers) # trying to remove extra \x newline character.
+    #clean_markers = os.linesep.join([s for s in markers.splitlines() if s])
+    #re.sub(r'\n\s*\n', '\n', markers, flags=re.MULTILINE)
     lines = csv.reader(markers, delimiter='\t')
     for line in lines:
-        name, timecode, layer, color, comment = line[:5]
-        print('* LOC: {0} {1}   {2}'.format(timecode, color, comment))
-        edl_line = ('* LOC: {0} {1}   {2}\n'.format(timecode, color, comment))
+        try:
+            name, timecode, layer, color, comment = line[:5]
+            print('* LOC: {0} {1}   {2}'.format(timecode, color, comment))
+            edl_line = ('* LOC: {0} {1}   {2}\n'.format(timecode, color, comment))
+        except:
+            edl_line = ('')
         markerwriter.write(edl_line)
 
 markerwriter.write(footer1)
