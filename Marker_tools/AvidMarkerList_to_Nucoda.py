@@ -34,7 +34,7 @@ with open(marker_list, newline = '') as markers:
     for line in lines:
         try:
             name, timecode, layer, color, comment = line[:5]
-            print('* LOC: {0} {1}   {2}'.format(timecode, color, comment))
+            #print('* LOC: {0} {1}   {2}'.format(timecode, color, comment))
             edl_line = ('* LOC: {0} {1}   {2}\n'.format(timecode, color, comment))
         except:
             edl_line = ('')
