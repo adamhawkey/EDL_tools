@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 """
-Usage:  DolbyXML_parse.py {XML name}
+Usage:  DolbyXML_parse.py {XML name} {Max Nits}
 """
 # The idea is to parse through a DolbyVision XML and report back certain things.
 # To start, I am trying to search for Level 1 high level analysis over a certain value.
@@ -38,4 +38,3 @@ for Shot in root.findall('.Outputs/Output/Video/Track/Shot'):
     l1high = float(l1_40.split(' ')[2])
     if l1high > l1ul:
         print('Shot at frame# ', frameNum, 'has a level1 high value of: ', l1high)
-        
