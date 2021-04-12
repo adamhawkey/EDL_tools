@@ -144,7 +144,7 @@ def validateContinue():
 
 def getData():
 	inPath = raw_input(COMPUTEROUTPUT + "\nPlease drag & drop the source XML into this window, then hit ENTER:\n" + RESET + USERINPUT)
-	inPath = inPath[1:-2]
+	inPath = inPath[1:-1]
 	directory = os.path.dirname(inPath)
 	while True:
 		print(COMPUTEROUTPUT+"Here is a list of the type of XML delivery files this script can make.\nEnter the number value of the selection you want:\n\t1) DISNEY PLUS WORKFLOW\n\t2) RAY DONOVAN HDR WORKFLOW\n\t3) APPLE PRORES WORKFLOW\n\t4) EDENDALE FOX IMF WORKFLOW\n\t5) TRIM NIT CHECK ONLY")

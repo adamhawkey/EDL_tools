@@ -3,55 +3,39 @@
 """
 Usage:  DolbyXML_parse.py {XML name}
 """
-
 # The idea is to parse through a DolbyVision XML and report back certain things.
 # To start, I am trying to search for Level 1 high level analysis over a certain value.
-
 import sys
 import re
 import os
+import colour
 import xml.etree.ElementTree as ET
 
 if len(sys.argv) < 2:
     print('Not enough arguments.', __doc__)
     sys.exit()
-inputXML = sys.argv[1]
 
-# Seems DolbyVision XML is structured (DolbyLabsMDF/Outputs/Output/Video/Track/Shot/PluginNode/DVDynamicData/Level1)
+inputXML = sys.argv[1]
+maxNits = sys.argv[2]
+
+# DolbyVision 4.0 and 2.9 XMLs are the same up to the 'Shot' ( DolbyLabsMDF/Outputs/Output/Video/Track/Shot )
+# DolbyVision 4.0 XML 'Shot' tree is: ( Shot/PluginNode/DVDynamicData/Level1 )
+# DolbyVision 2.9 XML 'Shot' tree is: ( Shot/PluginNode/DolbyEDR/ImageCharacter )
 
 tree = ET.parse(inputXML)
 root = tree.getroot()
+print(root)
 
-l1ul = 0.762 # Level1 Upper Limit that I would like to check if any shot exceeds.
+l1ul = round(colour.models.eotf_inverse_ST2084(maxNits), 4) # Level1 Upper Limit that I would like to check if any shot exceeds.
 
-# Ideally, I would use the .find() or .findall(), but for some reason I can't get it to work on Dolby XML.
-# Seems to only return "None".
-
-for Shot in root.findall('.//Shot'):
-    print(Shot.tag, Shot.text, Shot.attrib)
-
-"""
-for Shot in root.findall():
-    print(Shot.tag, Shot.text, Shot.attrib)
-
+# I cannot get the .find() and .findall() commands to work on DolbyVision 4.0 XMLs due to some problem in the xmlns namespace.
+# So I can either remove the xmlns, or append :xsd to it, like "<DolbyLabsMDF xmlns:xsd="http://w..."
 
 for Shot in root.findall('.Outputs/Output/Video/Track/Shot'):
     frameNum = Shot.find('.Record/In').text
-    l1 = Shot.get('Level1').text
-    print(Shot, frameNum, l1)
-    if l1[2] > l1ul:
-        print('Shot at frame# ', frameNum, 'has an L1 high value of: ', L1[2])
-
-# But if I manually force my way down the tree, I can get there.
-
-for Outputs in root:
-    for Output in Outputs:
-        for Video in Output:
-            for Track in Video:
-                for Shot in Track:
-                    Level1 = Shot.find('.PluginNode/DVDynamicData/Level1')
-                    #print(Shot.tag, Level1)
-                    l1 = Shot.find(".PluginNode/DVDynamicData/Level1").text
-                    frameNum = Shot.find(".Record/In").text
-                    print(Shot.tag, frameNum, l1)
-"""
+#    l1_29 = Shot.find('.PluginNode/DolbyEDR/ImageCharacter').text
+    l1_40 = Shot.find('.PluginNode/DVDynamicData/Level1/ImageCharacter').text
+    l1high = float(l1_40.split(' ')[2])
+    if l1high > l1ul:
+        print('Shot at frame# ', frameNum, 'has a level1 high value of: ', l1high)
+        
