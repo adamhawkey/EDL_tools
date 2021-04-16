@@ -5,6 +5,7 @@ Usage:  DolbyXML_parse.py {XML name} {Max Nits}
 """
 # The idea is to parse through a DolbyVision XML and report back certain things.
 # To start, I am trying to search for Level 1 high level analysis over a certain value.
+
 import sys
 import re
 import os
@@ -18,8 +19,6 @@ maxNits = sys.argv[2]
 # DolbyVision 4.0 XML 'Shot' tree is: ( Shot/PluginNode/DVDynamicData/Level1 )
 # DolbyVision 2.9 XML 'Shot' tree is: ( Shot/PluginNode/DolbyEDR/ImageCharacter )
 
-# ns = {"xmlns": "http://www.dolby.com/schemas/dvmd/4_0_2"}
-
 with open(inputXML) as f:
     xmlstring=f.read()
     xmlstring=re.sub(r'\sxmlns="[^"]+"','',xmlstring,count=1)
@@ -27,12 +26,8 @@ root=ET.fromstring(xmlstring)
 
 # tree = ET.parse(inputXML)
 # root = tree.getroot()
-# print(root)
 
 l1ul = round(colour.models.eotf_inverse_ST2084(maxNits), 4) # Level1 Upper Limit that I would like to check if any shot exceeds.
-
-# I cannot get the .find() and .findall() commands to work on DolbyVision 4.0 XMLs due to some problem in the xmlns namespace.
-# So I can either remove the xmlns, or append :xsd to it, like "<DolbyLabsMDF xmlns:xsd="http://w..."
 
 for Shot in root.findall('.Outputs/Output/Video/Track/Shot'):
     frameNum = Shot.find('.Record/In').text
