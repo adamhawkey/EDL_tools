@@ -11,10 +11,6 @@ import os
 import colour
 import xml.etree.ElementTree as ET
 
-if len(sys.argv) < 2:
-    print('Not enough arguments.', __doc__)
-    sys.exit()
-
 inputXML = sys.argv[1]
 maxNits = sys.argv[2]
 
@@ -22,9 +18,16 @@ maxNits = sys.argv[2]
 # DolbyVision 4.0 XML 'Shot' tree is: ( Shot/PluginNode/DVDynamicData/Level1 )
 # DolbyVision 2.9 XML 'Shot' tree is: ( Shot/PluginNode/DolbyEDR/ImageCharacter )
 
-tree = ET.parse(inputXML)
-root = tree.getroot()
-print(root)
+# ns = {"xmlns": "http://www.dolby.com/schemas/dvmd/4_0_2"}
+
+with open(inputXML) as f:
+    xmlstring=f.read()
+    xmlstring=re.sub(r'\sxmlns="[^"]+"','',xmlstring,count=1)
+root=ET.fromstring(xmlstring)
+
+# tree = ET.parse(inputXML)
+# root = tree.getroot()
+# print(root)
 
 l1ul = round(colour.models.eotf_inverse_ST2084(maxNits), 4) # Level1 Upper Limit that I would like to check if any shot exceeds.
 
