@@ -1,0 +1,92 @@
+Shane.2	01:00:14:19	V9	red	Replace this with the comped shot from 3001
+Shane.2	01:03:15:02	V9	red	VFX_Aspect ratio letterboxing effect
+Shane.2	01:03:15:23	V9	red	COLOR_Color adjustment (See chase file) begin crossfade
+Shane.2	01:03:16:02	V9	red	COLOR_Color adjustment (See chase file) end crossfade
+Shane.2	01:03:16:03	V9	red	VFX_Continue aspect ratio letterboxing effect until 01:03:35:03
+Shane.2	01:03:18:14	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:19:22	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:22:15	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:24:09	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:28:13	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:29:18	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:31:00	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:32:07	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:32:17	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:33:12	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:34:04	V9	red	COLOR_Color Adjustment (See chase file)
+Shane.2	01:03:35:02	V9	red	VFX_last frame of aspect ratio letterboxing effect
+AdamFix	01:05:55:23	V9	red	do we care about white box reflection on photo above stairs??
+Shane.2	01:06:29:04	V9	red	Door - remove blue taped off portion
+Shane.2	01:07:31:12	V9	red	Window - reflection on desk
+AdamFix	01:07:50:18	V9	red	Door - remove blue taped off portion
+AdamFix	01:08:41:19	V9	red	graffiti on elevator. Intentional or muddy up?
+Shane.2	01:09:33:05	V9	red	window
+Shane.2	01:09:35:08	V9	red	window
+Shane.2	01:10:06:01	V9	red	VFX_Single frame white flash transition
+Shane.2	01:10:06:02	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:07:21	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:09:08	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:10:05	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:10:22	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:12:01	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:13:20	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:15:02	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:16:05	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:17:11	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:10:21:03	V9	red	VFX_Single Frame White Flash Transition
+Shane.2	01:11:00:00	V9	red	Speed Ramp_from 24FPS to 48FPS - start here
+Shane.2	01:11:01:03	V9	red	Speed Ramp_from 24FPS to 48FPS - 48FPS here
+AdamFix	01:11:10:11	V9	red	STABILIZE SIGN??
+AdamFix	01:12:13:01	V9	red	TELL ADAM TO MATCH HER NEXT TO FACE (MAKEUP COLOR IS OFF)
+Shane.2	01:12:45:15	V9	red	VFX_Screen Replacement - IMG_0172.MOV - TC 01:02:33:03
+Shane.2	01:12:49:19	V9	red	VFX_Screen Replacement - IMG_0172.MOV - TC 01:00:51:09
+Shane.2	01:14:27:13	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:31:09	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:33:16	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:36:19	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:39:12	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:41:14	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:43:05	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:45:10	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:48:18	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:51:01	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:53:07	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:55:04	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:56:07	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:57:13	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:14:58:17	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:00:19	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:02:20	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:04:07	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:05:21	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:07:22	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:11:02	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:13:05	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:15:08	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:17:17	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:19:22	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:23:14	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:26:05	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:28:10	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:35:13	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:37:19	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:39:16	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:41:07	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:42:22	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:15:45:05	V9	red	COLOR_Color adjustment (See chase file)
+Shane.2	01:23:28:10	V9	red	VFX_Remove users "pr0udboyy" and "Maga_UsA_99" - are we replacing with something else??
+AdamFix	01:24:06:14	V9	red	I think this is same graphic used in previous shot. Blow up to confirm users are not visible?
+Shane.2	01:26:28:16	V9	red	Remove BOOM (UPDATED TC)
+Shane.2	01:33:43:12	V9	red	VFX_Screen Burn-in_DA HANSEN COLLUDED_FINAL.mov
+Shane.2	01:33:47:13	V9	red	COLOR_B&W
+Shane.2	01:33:58:23	V9	red	VFX_Screen Replacement (need file name for this)
+Shane.2	01:34:02:05	V9	red	VFX_Screen Replacement
+Shane.2	01:34:09:02	V9	red	VFX_Screen Replacement
+Shane.2	01:34:09:17	V9	red	VFX_Screen Replacement
+Shane.2	01:34:11:19	V9	red	VFX_Screen Replacement
+Shane.2	01:34:15:19	V9	red	VFX_Screen Replacement
+Shane.2	01:34:16:19	V9	red	VFX_Screen Replacement
+Shane.2	01:34:19:05	V9	red	VFX_Screen Replacement
+Shane.2	01:34:25:00	V9	red	VFX_Screen Replacement
+Shane.2	01:34:56:11	V9	red	VFX_Remove Hand_There's useful clip at the end of the timeline for this
+Shane.2	01:37:16:21	V9	red	VFX_Screen Replacement

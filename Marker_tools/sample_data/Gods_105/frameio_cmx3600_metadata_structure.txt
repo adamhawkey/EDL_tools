@@ -1,0 +1,33 @@
+{
+    "OTIO_SCHEMA": "Clip.1",
+    "metadata": {
+        "cmx_3600": {
+            "comments": [
+                "|C:ResolveColorYellow |M:gas105_070_020 |D:1"
+            ],
+            "reel": "001"
+        }
+    },
+    "name": "025",
+    "source_range": {
+        "OTIO_SCHEMA": "TimeRange.1",
+        "duration": {
+            "OTIO_SCHEMA": "RationalTime.1",
+            "rate": 24.0,
+            "value": 1.0
+        },
+        "start_time": {
+            "OTIO_SCHEMA": "RationalTime.1",
+            "rate": 24.0,
+            "value": 5620.0
+        }
+    },
+    "effects": [],
+    "markers": [],
+    "media_reference": {
+        "OTIO_SCHEMA": "MissingReference.1",
+        "metadata": {},
+        "name": "",
+        "available_range": null
+    }
+}
