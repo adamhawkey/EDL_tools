@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
 usage: GT_Titles_0.1.py <inputEDL> <outputEDL>
