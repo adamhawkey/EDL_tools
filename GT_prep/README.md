@@ -1,8 +1,8 @@
-##  GT_prep_0.3.py
+##  GT_prep_0.4.py
 #### used for adding 6 CC_layers and a CC_layer-7 with the correct LUT based on AVID luts copied to the * REEL comment.
 
 #### Usage:  
-##### **python3 GT_prep_0.3.py (source EDL) (output EDL)**
+##### **python3 GT_prep_0.4.py -i or --inEDL (source EDL) -o or --outEDL (output EDL) -v or --verbose -q or --quiet**
 
 ##### example line of an EDL:
 003  A001C001 V     C        02:47:25:20 02:47:49:04 01:00:20:01 01:00:43:09 
