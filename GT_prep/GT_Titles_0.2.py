@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-usage: GT_Titles_0.1.py <inputEDL> <outputEDL>
+usage: GT_Titles_0.2.py <inputEDL> <outputEDL>
 """
 
 # This script is very specific to the show Good Trouble.
@@ -21,19 +21,7 @@ inputEDL, outputEDL = sys.argv[1:]
 
 #shutil.copy(inputEDL, outputEDL)
 
-'''
-regex1 = (r"^([0-9]{3})([ ]+)(BL)(    V     C        )(00:00:00:00 00:00:00:00)[ ]+([0-9]{2}:[0-9]{2}:[0-9]{2}:[0-9]{2})(.[0-9]{2}:[0-9]{2}:[0-9]{2}:[0-9]{2})(.*)\n"
-	r"([0-9]{3})(.*)\n"
-	r"(\*)(.*)\n"
-	r"(\*)(.*)\n"
-	r"([0-9]{3})([ ]+BL    V     C)(.*)$\n"
-	r"(\*)(.*)\n"
-	r"([0-9]{3})(.*)\n"
-	r"([0-9]{3})([ ]+BL    V     D    012 )(00:00:00:00 00:00:00:12)[ ]+([0-9]{2}:[0-9]{2}:[0-9]{2}:[0-9]{2})( [0-9]{2}:[0-9]{2}:[0-9]{2}:[0-9]{2})(.*)$\n"
-	r"(.*)\n"
-	r"(.*)")
-'''
-regex = (r"^([0-9]{3})([ ]+)(BL)(.*)\n"
+BLevents = (r"^([0-9]{3})([ ]+)(BL)(.*)\n"
 	r"(\*)( SOURCE FILE: \(NULL\))")
 subst = ""
 
@@ -76,7 +64,7 @@ edlOut = open(outputEDL, "w")
 # You can manually specify the number of replacements by changing the 4th argument
 
 # delete standalone BL events:  https://regex101.com/r/kuafhd/1
-result = re.sub(regex, subst, edl, 0, re.MULTILINE)
+result = re.sub(BLevents, subst, edl, 0, re.MULTILINE)
 
 # replace dissolves with 1 clip:  https://regex101.com/r/VnSTI3/1
 result1 = re.sub(regex1, subst1, result, 0, re.MULTILINE)
