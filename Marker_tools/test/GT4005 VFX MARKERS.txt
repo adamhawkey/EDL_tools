@@ -1,0 +1,138 @@
+Mr M0	00:00:00:00	V1	magenta	Black	1
+Mr M0	00:00:01:00	V1	magenta	Recap 4004	1
+Mr M0	00:00:02:12	V1	magenta	Recap 4004	1
+Mr M0	00:00:05:17	V4	magenta	Recap 4004	1
+Mr M0	00:00:05:17	V1	magenta	Recap 4004 replace vfx from ctm and text message	1
+Mr M0	00:00:08:10	V1	magenta	Recap 4003	1
+Mr M0	00:00:12:12	V1	magenta	Recap 4003	1
+Mr M0	00:00:13:11	V1	magenta	Recap 4003	1
+Mr M0	00:00:14:10	V1	magenta	Recap 4003 replace vfx from CTM	1
+Mr M0	00:00:15:12	V1	magenta	Recap  replace vfx from CTM	1
+Mr M0	00:00:16:14	V1	magenta	Recap 4003	1
+Mr M0	00:00:17:22	V1	magenta	Recap 4003	1
+Mr M0	00:00:19:17	V1	magenta	Recap 4003	1
+Mr M0	00:00:21:03	V1	magenta	Recap 3019	1
+Mr M0	00:00:21:18	V1	magenta	Recap 4003	1
+Mr M0	00:00:22:18	V1	magenta	Recap 3019	1
+Mr M0	00:00:24:01	V1	magenta	Recap 4003	1
+Mr M0	00:00:24:22	V1	magenta	Recap 4003	1
+Mr M0	00:00:25:18	V1	magenta	Recap 4003	1
+Mr M0	00:00:27:08	V1	magenta	Recap 4004	1
+Mr M0	00:00:29:11	V1	magenta	Recap 4004	1
+Mr M0	00:00:31:02	V1	magenta	Recap 4004 replace vfx from CTM	1
+Mr M0	00:00:32:09	V1	magenta	Recap 3019	1
+Mr M0	00:00:33:16	V1	magenta	Recap 4003	1
+Mr M0	00:00:35:04	V1	magenta	Recap 4003	1
+Mr M0	00:00:36:20	V1	magenta	Recap 4003	1
+Mr M0	00:00:38:15	V1	magenta	Recap 4003	1
+Mr M0	00:00:39:20	V1	magenta	Black	1
+Mr M0	00:00:40:20	V5	magenta	Act 1 in	1
+Mr M0	00:01:21:20	V1	magenta	VFX- scale 125 and reposition	1
+Mr M0	00:01:42:10	V1	magenta	VFX- scale 150 and reposition	1
+Mr M0	00:01:53:15	V1	magenta	VFX- 125 scale and reposition	1
+Mr M0	00:02:53:17	V1	magenta	VFX- blur two seconds from the head of the clip. Please amtch with the refrence	1
+Mr M0	00:02:59:06	V1	magenta	VFX- scaling from 100 to 111	1
+Mr M0	00:03:06:06	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:03:08:15	V1	magenta	VFX- scale from 118 to 125 and reposition 	1
+Mr M0	00:03:25:03	V1	magenta	VFX- scaling from 100 to 125 and reposition VFX_Blur nipple cover	1
+Mr M0	00:03:45:16	V4	magenta	VFX- text message_GT4005_SC07_TEXT_ANGELICA_GOING TO BED V2.mov	1
+Mr M0	00:03:48:17	V4	magenta	VFX- text message GT4005_SC07_TEXT_ANGELICA_GOING TO BED V2.mov	1
+Adam GTS3	00:04:10:21	V2	magenta	VFX - no blink. Please match the refrence	1
+Mr M0	00:04:14:22	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:04:35:03	V4	magenta	VFX- text message_GT4005_SC10_TEXT_MARIANA_CANT BELIEVE THEYVE KEPT YOU V1.mov 	1
+Mr M0	00:04:40:10	V4	magenta	VFX- text message_GT4005_SC10_TEXT_MARIANA_DONT ALL LOOK V2.mov 	1
+Mr M0	00:04:52:19	V1	magenta	VFX-  scaling from 105 to 111 and reposition	1
+Mr M0	00:04:57:02	V4	magenta	VFX- text message_GT4005_SC10_TEXT_FCG_RUDE ANNOYING KNOW WHO WE ARE V2.mov	1
+Mr M0	00:05:29:07	V4	magenta	VFX- text message_GT4005_SC12_TEXT_MARIANA_THEY KNOW NOW V2.mov	1
+Mr M0	00:05:31:08	V4	magenta	VFX- text message_GT4005_SC12_TEXT_MARIANA_THEY KNOW NOW V3.mov	1
+Mr M0	00:05:46:04	V4	magenta	VFX- text message_GT4005_SC12_TEXT_GINA_EVAN DOING HERE V2.mov	1
+Mr M0	00:06:25:12	V4	magenta	VFX- text message_GT4005_SC16_TEXT_MARIANA_I HAD NO IDEA V2.mov	1
+Mr M0	00:06:25:12	V1	magenta	VFX- scale 150 and reposition	1
+Mr M0	00:06:29:00	V4	magenta	VFX- text message_GT4005_SC16_TEXT_MARIANA_I HAD NO IDEA V2.mov 	1
+Mr M0	00:06:36:16	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:07:02:00	V1	magenta	VFX: scale 140 and reposition	1
+Mr M0	00:07:10:13	V5	yellow	Act 1 out	1
+Mr M0	00:07:11:01	V5	magenta	Act 2 in	1
+Adam GTS3	00:07:16:13	A4	magenta	ADR_GT4005_SC19_Isabella_Hey, are you oaky?	1
+Mr M0	00:07:41:21	A4	magenta	ADR_GT4005_SC19_Isabella_Oh shit	1
+Mr M0	00:08:18:16	V2	magenta	VFX - Wipe (TOP) B103C001_211207X6.mxf - 09:10:49:04 - (BOTTOM) B103C002_211207FW.mxf - 09:14:36:23	1
+Mr M0	00:08:33:15	V1	magenta	VFX - scale 125 and reposition	1
+Mr M0	00:08:36:08	V1	magenta	VFX- scale 133 and reposition	1
+Mr M0	00:08:40:10	V4	magenta	VFX- text message__SC20_TEXT_JOAQUIN_STAY IN MY LOFT.mov	1
+Mr M0	00:08:55:12	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:10:47:12	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:11:35:07	V5	yellow	Act 2 out	1
+Mr M0	00:11:35:20	V5	magenta	Act 3 in	1
+Mr M0	00:13:55:12	V1	magenta	VFX- scaling from 100 to 108	1
+Mr M0	00:13:57:15	V1	magenta	VFX- scaling from 100 to 111	1
+Mr M0	00:14:12:07	V1	magenta	VFX- scaling from 100 to 111	1
+Adam GTS3	00:14:18:22	V1	magenta	possible ADR_GT4005_SC 24_Mariana_I couldn't tank the peach	1
+Mr M0	00:16:18:21	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:16:30:00	V4	magenta	VFX- text message_GT4005_SC07_TEXT_ANGELICA_GOING TO BED V2.mov	1
+Mr M0	00:16:33:11	A4	magenta	ADR_GT4005_SC27_Costumer_Excuse me! Can I get a drink?	1
+Mr M0	00:18:01:16	V5	yellow	Act 3 out	1
+Mr M0	00:18:02:04	V5	magenta	Act 4 in	1
+Mr M0	00:18:12:05	V4	magenta	VFX- text message_GT4005_SC30_TEXT_JOAQUIN_HANDY.mov	1
+Mr M0	00:18:15:21	V4	magenta	VFX- text message_GT4005__SC30_TEXT_LUCA_WORKED CONSTRUCTION.mov	1
+Mr M0	00:18:25:11	V4	magenta	VFX- text message_GT4005__SC30_TEXT_JOAQUIN_STAYING IN MY LOFT.mov	1
+Mr M0	00:18:28:23	V1	magenta	VFX- scale 107 and reposition	1
+Adam GTS3	00:18:30:20	V1	magenta	vfx - light outside window	1
+Mr M0	00:19:25:21	V1	magenta	VFX- scale 107 and reposition	1
+Mr M0	00:19:36:07	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:20:57:12	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:21:01:04	V1	magenta	VFX- scale 125 and reposition	1
+Mr M0	00:21:22:02	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:21:25:17	V1	magenta	VFX- scaling from 111 to 120 and reposition	1
+Mr M0	00:22:21:20	V1	magenta	VFX- scale 107 and reposition	1
+Mr M0	00:23:40:02	A1	magenta	ADR_GT4005_SC19_Isabella_Is the food ready to take up to the children's ward	1
+Mr M0	00:23:58:19	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:24:28:21	V1	magenta	flashback from 2008 	1
+Mr M0	00:24:30:20	V1	magenta	flashback from 2008 	1
+Mr M0	00:24:33:03	V1	magenta	flashback from 2008 	1
+Mr M0	00:24:36:04	V1	magenta	flashback from???	1
+Mr M0	00:24:41:08	V1	magenta	flashback from???	1
+Mr M0	00:24:43:08	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:26:09:08	V5	yellow	Act 4 out	1
+Mr M0	00:26:09:20	V5	magenta	Act 5 in	1
+Mr M0	00:26:09:20	V1	magenta	VFX- scale 125 and reposition	1
+Mr M0	00:26:13:16	V1	magenta	flashback from??????	1
+Mr M0	00:26:15:12	V1	magenta	Flashback from????	1
+Mr M0	00:26:16:15	V1	magenta	VFX- scali 125 and reposition	1
+Mr M0	00:26:19:04	V1	magenta	VFX- scale 125 and reposition	1
+Mr M0	00:26:20:22	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:26:22:21	V1	magenta	VFX- scale 125 and reposition  Flashback fron 2008 Cut from CTM	1
+Mr M0	00:26:24:19	V1	magenta	Flashback from 2008 Cut from CTM	1
+Mr M0	00:26:29:07	V1	magenta	Flashback from 1012 Cut from CTM	1
+Mr M0	00:26:31:20	V1	magenta	Flashback from 2001 Cut from CTM	1
+Mr M0	00:26:33:03	V1	magenta	Flashback from 2001 Cut from CTM	1
+Mr M0	00:26:35:22	V1	magenta	Flashback from 2001 Cut from CTM	1
+Mr M0	00:27:01:03	V1	magenta	Flashback from 3019 Cut from CTM	1
+Mr M0	00:27:12:23	V1	magenta	Flashback from 3012 Cut from CTM	1
+Mr M0	00:27:14:17	V1	magenta	Flashback from 3012 Cut from CTM	1
+Mr M0	00:27:16:02	V1	magenta	Flashback from 3012 Cut from CTM	1
+Mr M0	00:27:42:06	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:28:06:10	V1	magenta	VFX- scaling from 125 to 100 and reposition	1
+Mr M0	00:28:11:03	V1	magenta	VFX- scale 105 and reposition	1
+Mr M0	00:28:21:00	V1	magenta	VFX- scale 150 and reposition	1
+Mr M0	00:28:29:19	V1	magenta	VFX- scaling from 150 to 175 and reposition	1
+Mr M0	00:28:30:18	V1	magenta	VFX- scaling from 125 to 200 and reposition	1
+Mr M0	00:30:07:01	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:30:43:07	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:31:06:16	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:31:32:13	V1	magenta	VFX- scale 125 and reposition	1
+Mr M0	00:32:19:01	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:34:26:08	V5	yellow	Act 5 out	1
+Mr M0	00:34:26:20	V5	magenta	Act 6 in	1
+Mr M0	00:35:34:12	V1	magenta	VFX- remove Sunkiss logo 	1
+Mr M0	00:35:57:15	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:36:21:06	V1	magenta	VFX- smooth the line on woman face	1
+Mr M0	00:37:03:17	V1	magenta	VFX- smooth the line on woman face	1
+Mr M0	00:37:29:21	V4	magenta	VFX- text _SC43_TEXT_LUCA_THANKS FOR LETTING ME CRASH_3.mov	1
+Mr M0	00:38:03:19	V1	magenta	VFX- scaling from 100 to 115 and reposition	1
+Mr M0	00:38:08:15	V1	magenta	VFX- scaling from 100 to 111 and reposition	1
+Mr M0	00:38:39:23	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:38:54:19	V1	magenta	VFX- scaling from 125 to 105 and reposition	1
+Mr M0	00:40:18:07	V1	magenta	VFX- scaling from 120 to 123 and reposition	1
+Mr M0	00:41:16:10	V1	magenta	VFX- scale 120 and reposition	1
+Mr M0	00:41:24:21	V1	magenta	VFX- scaling from 105 to 102 and reposition	1
+Mr M0	00:41:30:15	V5	yellow	Act 6 out	1

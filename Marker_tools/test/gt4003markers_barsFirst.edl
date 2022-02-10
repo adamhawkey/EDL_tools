@@ -1,0 +1,188 @@
+TITLE: (converted from) GT4003 VFX MARKERS.txt 
+FCM: FILM 
+001  Bars   V     C        00:58:00:00 00:58:30:00 00:58:00:00 00:58:30:00
+* LOC: 00:58:20:00 green   These are bars that can be deleted
+
+* LOC: 00:00:01:00 magenta   Recap 3019
+* LOC: 00:00:03:06 magenta   Recap 3019
+* LOC: 00:00:06:09 magenta   Recap 3019
+* LOC: 00:00:09:06 magenta   Recap 3019
+* LOC: 00:00:11:00 magenta   Recap: prev on card
+* LOC: 00:00:12:14 magenta   Recap 4001
+* LOC: 00:00:14:03 magenta   Recap 3010
+* LOC: 00:00:16:01 magenta   Recap 4001
+* LOC: 00:00:18:01 magenta   Recap 3019
+* LOC: 00:00:19:03 magenta   Recap 3019
+* LOC: 00:00:20:05 magenta   Recap 3018
+* LOC: 00:00:20:10 magenta   Recap: replace from 3018 and replace text
+* LOC: 00:00:22:19 magenta   Recap 2011
+* LOC: 00:00:22:20 magenta   Recap replace comp from 2011
+* LOC: 00:00:23:13 magenta   Recap 2011
+* LOC: 00:00:26:11 magenta   Recap 3018
+* LOC: 00:00:28:03 magenta   Recap 4001
+* LOC: 00:00:29:09 magenta   Recap 4001
+* LOC: 00:00:31:03 magenta   Recap 4002
+* LOC: 00:00:32:04 magenta   Recap 4002
+* LOC: 00:00:33:14 magenta   Recap 4002
+* LOC: 00:00:34:12 magenta   Recap VFX replace shot from 4002
+* LOC: 00:00:37:13 magenta   Recap from 4002
+* LOC: 00:00:41:03 magenta   Recap from 4001
+* LOC: 00:00:43:23 magenta   Recap from 4001
+* LOC: 00:00:45:09 magenta   Recap from 4001
+* LOC: 00:00:46:21 magenta   Recap from 4001
+* LOC: 00:00:47:20 magenta   Recap 4001
+* LOC: 00:00:50:15 magenta   Recap 4001
+* LOC: 00:00:52:17 magenta   Recap 4002
+* LOC: 00:00:53:18 magenta   Recap 4002
+* LOC: 00:00:55:12 magenta   Recap from 4001
+* LOC: 00:00:57:09 magenta   recap from 3019
+* LOC: 00:00:58:10 magenta   recap from 3019
+* LOC: 00:01:00:18 magenta   recap from 3019
+* LOC: 00:01:01:15 magenta   recap from 3019
+* LOC: 00:01:04:09 magenta   recap from 3019
+* LOC: 00:01:05:06 magenta   Recap 4002
+* LOC: 00:01:07:14 magenta   Recap 4002
+* LOC: 00:01:10:02 magenta   Recap 4002
+* LOC: 00:01:13:03 magenta   Recap 4002
+* LOC: 00:01:14:16 magenta   Black
+* LOC: 00:01:16:10 magenta   Act 1 in
+* LOC: 00:01:20:19 magenta   Spped ramp match the refrence
+* LOC: 00:01:26:02 magenta   VFX: scale 120 and Position
+* LOC: 00:01:43:15 magenta   Main titles in
+* LOC: 00:02:07:21 magenta   VFX: scale 120 and position
+* LOC: 00:03:06:14 magenta   VFX: scale 125 and position
+* LOC: 00:03:10:09 magenta   VFX: scale 120 and position
+* LOC: 00:03:50:05 red   ADR - Tracey: "Okay, tour is over"
+* LOC: 00:03:51:16 magenta   VFX: scale 111 and position
+* LOC: 00:03:54:05 magenta   VFX:  scale 120 and position
+* LOC: 00:06:16:13 red   add group reaction
+* LOC: 00:06:26:09 blue   ADR
+* LOC: 00:06:26:17 blue   ADR - GT3019 ADR Grace Harris
+* LOC: 00:06:28:06 blue   ADR
+* LOC: 00:06:32:11 blue   ADR
+* LOC: 00:06:39:08 blue   ADR
+* LOC: 00:06:42:11 magenta   VFX: scale 120 and Position
+* LOC: 00:06:44:15 blue   ADR
+* LOC: 00:06:48:04 blue   ADR
+* LOC: 00:06:49:06 magenta   VFX: scale 105 and Position
+* LOC: 00:06:52:20 magenta   VFX: scale 120 and Position
+* LOC: 00:07:14:02 magenta   VFX: scale 120 and Position
+* LOC: 00:07:24:15 magenta   VFX: Correct the spell of Tenants
+* LOC: 00:07:52:04 yellow   Act 1 out
+* LOC: 00:07:52:16 magenta   Act 2 in
+* LOC: 00:07:57:16 magenta   VFX: scale 135 and Position
+* LOC: 00:08:37:10 magenta   VFX: scale 120 and Position
+* LOC: 00:08:46:07 magenta   VFX: scale 105 and Position
+* LOC: 00:09:12:15 magenta   VFX: scale 125 and Position
+* LOC: 00:09:13:23 magenta   VFX: scale 120 and Position
+* LOC: 00:10:23:08 magenta   VFX: scale 125 and Position
+* LOC: 00:10:54:12 magenta   VFX: remvoe instagram, facebook, twitter logo from the side of the truck
+* LOC: 00:11:38:12 magenta   VFX: Jumble grafity on bilboard upper left corner
+* LOC: 00:11:50:18 magenta   VFX: remove graphity behind Luca 
+* LOC: 00:12:05:04 magenta   VFX: Jumble graphoty on the bilboard
+* LOC: 00:12:08:22 magenta   VFX: remove graphity behind Luca 
+* LOC: 00:12:12:20 magenta   VFX: remove graphity behind Luca 
+* LOC: 00:12:13:02 magenta   VFX: Jumble graphoty on the bilboard
+* LOC: 00:12:22:20 magenta   VFX: scale 150 and Position
+* LOC: 00:13:00:05 magenta   VFX: Removing Liza from BG - Split comp - Same shot on both track and V2 is freez frame. Match the refrence, File name:B035C027_211022IL.mxf Start timecode: 12:24:05:22
+* LOC: 00:13:03:07 magenta   VFX: Laptop Comp - Log in page pop up aftet 5 frames - File name: A036C044_180118E8.mxf start timecode: 13:56:11:12 File name: A036C044_180118E8.mxf timecode: 13:56:12:18
+* LOC: 00:13:04:22 magenta   VFX: add password in comp Scale 200
+* LOC: 00:13:42:20 magenta   VFX: comp add password 
+* LOC: 00:14:20:04 magenta   Flash back: from 2016
+* LOC: 00:14:25:20 magenta   Flash back: from 3005
+* LOC: 00:14:27:09 magenta   Flash back: from 3003
+* LOC: 00:14:30:02 magenta   Flash back: from 3003
+* LOC: 00:14:31:15 magenta   Flash back: from 3002
+* LOC: 00:14:33:02 magenta   Flash back: from 3002
+* LOC: 00:14:39:13 magenta   VFX: Scale 120
+* LOC: 00:14:39:14 magenta   Flash back: from 3005
+* LOC: 00:14:41:04 magenta   Flash back: from 3010
+* LOC: 00:14:44:04 magenta   Flash back: from 3013
+* LOC: 00:14:59:14 yellow   Act 2 out
+* LOC: 00:15:00:02 magenta   Act 3 in
+* LOC: 00:15:29:14 magenta   VFX: Scale 120 and position
+* LOC: 00:16:30:20 magenta   VFX: Remove graphity from BG of Luca
+* LOC: 00:16:32:12 magenta   VFX: Jumble graphity on the ground
+* LOC: 00:16:33:01 magenta   VFX: Jumble graphity on the wall
+* LOC: 00:16:33:08 magenta   VFX: Jumble all the graphity on this shot  
+* LOC: 00:16:46:20 magenta   VFX: Jumble graphity 
+* LOC: 00:16:48:05 magenta   VFX: Jumble graphity 
+* LOC: 00:16:54:09 magenta   VFX: Jumble graphity 
+* LOC: 00:16:58:14 magenta   VFX: Jumble graphity 
+* LOC: 00:17:42:10 magenta   VFX: Match Davia with the refrence clip File name: B024C004_211018X4.mxf Start Timecode: 11:04:04:15 File name: B024C004_211018X4.mxf Start Timecode: 11:04:05:07
+* LOC: 00:19:40:22 magenta   VFX: Scale 125 and reposition
+* LOC: 00:19:52:00 magenta   VFX: Match BG talent with the refrence File Name: A046C021_180123JA.mxf  Start Timecode:11:51:54:01 File name: A046C021_180123JA.mxf start timecode: 11:51:51:07
+* LOC: 00:20:04:01 magenta   VFX: Match Malika with the refrence - VFX: Scal 105 File Name: B044C017_211027HO.mxf Start timecard: 11:47:40:17   File name: B044C019_211027GD.mxf Start timecode: 11:45:16:23
+* LOC: 00:20:12:05 magenta   VFX: Match the refrence
+* LOC: 00:20:13:23 magenta   VFX: Match the refrence
+* LOC: 00:20:18:02 magenta   Scale 120 
+* LOC: 00:20:50:21 yellow   Act 3 out
+* LOC: 00:20:51:09 magenta   Act 4 in
+* LOC: 00:20:53:07 magenta   VFX: Split Screen File Name: A037C001_1801181U Start Timecode: 17:26:15:10 File name: B035C046_21102243.mxf Start timecode: 15:36:53:05 File Name: A037C001_1801181U start timecode 17:26:16:10 File Name: A036C046_180118NO.mxf Start timecode: 15:29:15:14 File name: B035C046_21102243.mxf Start timecode: 15:36:25:05 Filename: A036C046_180118NO.mxf Start Timecode: 15:29:19:00 File Name: B035C045_211022EU.mxf Start Timecode: 15:28:55:07
+* LOC: 00:20:59:08 magenta   VFX: Match refrence from split screen to wip
+* LOC: 00:21:07:22 magenta   VFX: Split screen File name : B035C046_21102243.mxf start timecode: 15:35:48:08 File Name: A037C001_1801181U.mxf Start Timecode: 17:27:13:20 
+* LOC: 00:21:15:01 magenta   VFX: Wip to Split screen: File Name: B035C046_21102243.mxf Start Timecode: 15:36:44:18 File Name: B035C049_211022Y5.mxf  start timecode: 16:00:34:16
+* LOC: 00:21:15:23 magenta   VFX: from wip to split screen
+* LOC: 00:21:19:23 magenta   VFX: split screen File name: A037C003_180118BE.mxf Start Timecode: 17:38:00:10 File Name: A037C005_180118U9.mxf Start timecode: 17:49:38:08 File Name: B035C047_211022IS.mxf Start Timecode: 15:55:26:05
+* LOC: 00:21:27:07 magenta   VFX: Scale 125 and reposition
+* LOC: 00:21:30:04 magenta   VFX: split screen File Name: B036C003_211022GP.mxf Start timecode: 17:38:14:08 File Name: B036C004_2110225K.mxf Start timecode: 17:47:38:11 File Name: B035C049_211022Y5.mxf Start timecode: 16:00:55:05 
+* LOC: 00:21:35:22 magenta   VFX: Scale 125 and reposition
+* LOC: 00:21:38:00 magenta   VFX: split screen File Name: A037C005_180118U9.mxf Start Timecode: 17:50:06:09 File Name: A037C003_180118BE.mxf Start Timecode: 17:38:28:04
+* LOC: 00:21:40:12 magenta   VFX: wip  file name: A036C051_180118J5.mxf Start timecode: 16:05:02:21 
+* LOC: 00:21:41:13 magenta   VFX: split screen file name: A036C055_180118L8.mxf Start Timecode: 16:37:50:22 
+* LOC: 00:21:42:09 magenta   VFX: Split screen File Name: A037C010_1801182O.mxf Start timecode: 18:27:24:04 
+* LOC: 00:21:43:13 magenta   VFX: Split screen File Name: B035C057_211022I7.mxf Start Timecode: 17:08:15:12  Filename: A037C010_1801182O.mxf  start Timecode: 18:27:25:08
+* LOC: 00:21:45:13 magenta   VFX: Split screen File Name: B035C052_211022JF.mxf Start Timecode: 16:33:57:01 File Name: A036C058_180118XS.mxf Start timecode: 17:10:20:17  File Name: A036C053_18011817.mxf  Start Timecode: 16:33:50:02
+* LOC: 00:21:53:00 magenta   VFX: Scale 150 and reposition
+* LOC: 00:21:56:12 magenta   VFX: Split screen File Name: A036C057_180118WZ.mxf Start Timecode: 16:55:00:06  File Namke: A037C007_180118U7.mxf Start Timecode: 18:03:28:08
+* LOC: 00:22:01:04 magenta   VFX: Comp password in the box - Match refrence
+* LOC: 00:22:02:13 magenta   VFX: scale 120 and repostion 
+* LOC: 00:22:03:21 magenta   VFX: scale 120 and repostion 
+* LOC: 00:22:18:15 magenta   VFX: scale 120 and repostion 
+* LOC: 00:24:05:10 magenta   VFX: Comp laptop File name: U004C001_iPhone_2398_102121.mov Start timecode: 00:01:30:15 File name: A037C013_180118HA.mxf Start timecode: 19:05:05:21
+* LOC: 00:24:19:06 magenta   VFX: Comp laptop File name: A037C013_180118HA.mxf Start Tiemcode: 11:08:45:03 File Name: R002C001_iPhone_2398_102221.mov Start timecode: 00:01:04:18
+* LOC: 00:24:35:19 magenta   VFX: Comp laptop File Name: R002C001_iPhone_2398_102221.mov Start Timecode: 09:34:33:13 - Assets file name: GT4_Graphics_4003_NewsArticle_OutlinedFont_120721
+* LOC: 00:24:37:15 red   
+* LOC: 00:24:41:11 magenta   VFX: Scaling 107 and reposition
+* LOC: 00:24:53:15 blue   ADR
+* LOC: 00:25:17:23 magenta   VFX: Scale 120 and reposition
+* LOC: 00:26:20:20 yellow   Act 4 out
+* LOC: 00:26:21:08 magenta   Act 5 in
+* LOC: 00:26:23:10 magenta   VFX: phone comp File name: A030C016_180116D3.mxf Timecode: 12:38:01:14  Assests file name: GT4_Maiara Walsh (Jenna Perez)_Personal Photos2 AND IMG_5275
+* LOC: 00:26:28:21 magenta   VFX: Phone comp. File name: A030C016_180116D3.mxf Assets file name GT4_Maiara Walsh (Jenna Perez)_Personal Photos6_USED.jpeg
+* LOC: 00:27:05:10 blue   ADR "So, tell me what's going on with your app?"
+* LOC: 00:28:13:23 blue   ADR - Mariana: "how did that happen?"
+* LOC: 00:29:09:02 magenta   VFX: Scale goes drom 188 to 107 at the end of the clip
+* LOC: 00:29:15:05 magenta   VFX: Scale goes drom 188 to 107 at the end of the clip
+* LOC: 00:29:29:05 magenta   VFX: Scale 125
+* LOC: 00:29:38:00 magenta   VFX: Scale going from 107 to 100
+* LOC: 00:30:27:07 magenta   VFX: Scale 125 and reposition
+* LOC: 00:30:30:11 magenta   Flash back from 4001 Color: Match shot before
+* LOC: 00:30:44:07 yellow   Act 5 out
+* LOC: 00:30:44:19 magenta   Act 6 in
+* LOC: 00:31:36:02 magenta   VFX: scaling 125 and reposition
+* LOC: 00:31:40:05 magenta   VFX: Scale 125 and reposition
+* LOC: 00:31:43:02 magenta   VFX: Scale 200 and reposition
+* LOC: 00:31:44:11 magenta   VFX: Scale 200 and reposition
+* LOC: 00:31:46:23 magenta   VFX: Scale 120 and reposition
+* LOC: 00:31:49:00 magenta   VFX: Scale 120 and reposition
+* LOC: 00:31:49:23 magenta   VFX: Scale from 200 in the start of the shot to 250 at the end and reposition
+* LOC: 00:32:47:09 magenta   VFX: Comp laptob and split screen. File name: R001C003_iPhone_2398_102021.mov Start Timcode: 00:00:55:18  File Name: T003C001_iPhone_2398_102121.mov Start Timecode: 00:00:35:09 File name: T003C001_iPhone_2398_102121.mov Start timecode: 00:00:55:10 File Name T003C001_iPhone_2398_102121.mov Start time code: 00:00:35:16 
+* LOC: 00:32:51:23 magenta   VfX: Comp laptop  File Name: U004C003_iPhone_2398_102121.mov Start timecode: 00:01:00:14 File Name: A033C016_180117QZ.mxf Start Timecode: 12:15:18:12 
+* LOC: 00:32:54:15 magenta   VFX: Comp laptop file Name: R001C003_iPhone_2398_102021 Start Timecode: 00:01:03:06 File Name: A033C018_180117M7.mxf Start Timecode: 12:24:10:13
+* LOC: 00:33:03:19 magenta   VFX: Comp laptop File Name: R001C003_iPhone_2398_102021.mov Start Timecode: 00:01:14:17 File Name: T003C001_iPhone_2398_102121.mov Start Timecode: 00:00:47:21 File Name: T003C001_iPhone_2398_102121.mov Start Timecode: 00:01:08:00 File Name: U004C003_iPhone_2398_102121.mov Start tiemcode: 00:00:48:08 File Name: A031C019_180116NR.mxf Start Tiemcode: 19:14:07:04 
+* LOC: 00:33:09:05 magenta   VFX: Comp laptop File Name: R001C003_iPhone_2398_102021.mov start Timecode: 00:01:24:06 File Name: T003C001_iPhone_2398_102121.mov Timecode: 00:00:43:09 File Name: U004C002_iPhone_2398_102121 Start Tiemcode: 00:01:09:23 File name: U004C003_iPhone_2398_102121.mov Start timecode: 00:00:49:15
+* LOC: 00:33:15:19 magenta   VFX: Comp Laptop and animate: File name:R001C003_iPhone_2398_102021 Start Timecode: 00:01:30:11 File Name: B032C016_211021IJ.mxf Start timecode: 11:45:22:12 File Name: B032C016_211021IJ Start timecode: 11:45:24:04
+* LOC: 00:33:26:03 magenta   VFX: Comp laptop File Name: R001C003_iPhone_2398_102021.mov Start Timecode: 00:01:38:11 File Name: B032C018_2110218I.mxf Start Timecode: 11:57:55:06
+* LOC: 00:35:31:00 magenta   VFX: Scale 125 and reposition
+* LOC: 00:35:57:15 magenta   VFX: Scale 120 and reposition
+* LOC: 00:36:02:02 magenta   VFX: Scale 120 and reposition
+* LOC: 00:36:22:17 magenta   VFX: Scale 120 and reposition
+* LOC: 00:37:50:16 red   
+* LOC: 00:38:22:11 magenta   VFX: Scale 120 and reposition
+* LOC: 00:38:47:11 magenta   VFX: Scale 125 and reposition
+* LOC: 00:38:56:15 magenta   VFX: Scale 125 and reposition
+* LOC: 00:38:59:03 magenta   VFX: Scale 125 and reposition
+* LOC: 00:40:13:03 magenta   VFX: Scale 125 and reposition
+* LOC: 00:40:15:13 magenta   VFX: Scale 120 and reposition
+* LOC: 00:41:14:13 yellow   Act 6 out
