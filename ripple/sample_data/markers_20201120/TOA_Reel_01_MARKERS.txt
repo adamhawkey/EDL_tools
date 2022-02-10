@@ -1,0 +1,13 @@
+gthorburn	01:00:05:14	V9	red	GDT - New retake needed	1
+gthorburn	01:01:30:17	V9	green	Online Note From Brandon - Fire didn't look good in HDR. New matte layers for fire. MatteV01	1
+gthorburn	01:02:04:22	V9	green	Online Note - Matte edge in shot fixed, and extra matte layers included in A0058_V03.	1
+gthorburn	01:02:27:04	V9	red	Online QC - Upper edge, fire bending top of frame	1
+gthorburn	01:04:16:19	V9	green	Online Note - Fixing render error and bounding box error on A0115_V03.	1
+gthorburn	01:06:31:09	V9	red	GDT - New retake needed	1
+gthorburn	01:06:36:05	V9	red	GDT - New retake needed	1
+gthorburn	01:06:37:12	V9	red	GDT - New retake needed	1
+gthorburn	01:06:49:16	V9	green	Online Note From Brandon -  Adding smoke layer 111920	1
+gthorburn	01:08:07:13	V9	green	Online Note - Fixed Render Error in EXR - Update111820	1
+gthorburn	01:08:50:19	V9	green	ONline Note from Brandaon - New FX	1
+gthorburn	01:09:36:10	V9	white	White Flash 4 frames	1
+gthorburn	01:10:53:11	V9	red	Online Note: Starting at fr 600 in the EXR, Toby's hand animation does not match	1
