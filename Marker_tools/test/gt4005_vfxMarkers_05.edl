@@ -1,0 +1,141 @@
+TITLE: converted on Thu Feb 10 17:46:10 2022 from test/GT4005 VFX MARKERS.txt 
+FCM: FILM 
+001  BL   V     C        00:00:00:00 00:49:00:00 00:00:00:00 00:49:00:00
+* LOC: 00:00:00:00 magenta   Black
+* LOC: 00:00:01:00 magenta   Recap 4004
+* LOC: 00:00:02:12 magenta   Recap 4004
+* LOC: 00:00:05:17 magenta   Recap 4004
+* LOC: 00:00:05:17 magenta   Recap 4004 replace vfx from ctm and text message
+* LOC: 00:00:08:10 magenta   Recap 4003
+* LOC: 00:00:12:12 magenta   Recap 4003
+* LOC: 00:00:13:11 magenta   Recap 4003
+* LOC: 00:00:14:10 magenta   Recap 4003 replace vfx from CTM
+* LOC: 00:00:15:12 magenta   Recap  replace vfx from CTM
+* LOC: 00:00:16:14 magenta   Recap 4003
+* LOC: 00:00:17:22 magenta   Recap 4003
+* LOC: 00:00:19:17 magenta   Recap 4003
+* LOC: 00:00:21:03 magenta   Recap 3019
+* LOC: 00:00:21:18 magenta   Recap 4003
+* LOC: 00:00:22:18 magenta   Recap 3019
+* LOC: 00:00:24:01 magenta   Recap 4003
+* LOC: 00:00:24:22 magenta   Recap 4003
+* LOC: 00:00:25:18 magenta   Recap 4003
+* LOC: 00:00:27:08 magenta   Recap 4004
+* LOC: 00:00:29:11 magenta   Recap 4004
+* LOC: 00:00:31:02 magenta   Recap 4004 replace vfx from CTM
+* LOC: 00:00:32:09 magenta   Recap 3019
+* LOC: 00:00:33:16 magenta   Recap 4003
+* LOC: 00:00:35:04 magenta   Recap 4003
+* LOC: 00:00:36:20 magenta   Recap 4003
+* LOC: 00:00:38:15 magenta   Recap 4003
+* LOC: 00:00:39:20 magenta   Black
+* LOC: 00:00:40:20 magenta   Act 1 in
+* LOC: 00:01:21:20 magenta   VFX- scale 125 and reposition
+* LOC: 00:01:42:10 magenta   VFX- scale 150 and reposition
+* LOC: 00:01:53:15 magenta   VFX- 125 scale and reposition
+* LOC: 00:02:53:17 magenta   VFX- blur two seconds from the head of the clip. Please amtch with the refrence
+* LOC: 00:02:59:06 magenta   VFX- scaling from 100 to 111
+* LOC: 00:03:06:06 magenta   VFX- scale 120 and reposition
+* LOC: 00:03:08:15 magenta   VFX- scale from 118 to 125 and reposition 
+* LOC: 00:03:25:03 magenta   VFX- scaling from 100 to 125 and reposition VFX_Blur nipple cover
+* LOC: 00:03:45:16 magenta   VFX- text message_GT4005_SC07_TEXT_ANGELICA_GOING TO BED V2.mov
+* LOC: 00:03:48:17 magenta   VFX- text message GT4005_SC07_TEXT_ANGELICA_GOING TO BED V2.mov
+* LOC: 00:04:10:21 magenta   VFX - no blink. Please match the refrence
+* LOC: 00:04:14:22 magenta   VFX- scale 120 and reposition
+* LOC: 00:04:35:03 magenta   VFX- text message_GT4005_SC10_TEXT_MARIANA_CANT BELIEVE THEYVE KEPT YOU V1.mov 
+* LOC: 00:04:40:10 magenta   VFX- text message_GT4005_SC10_TEXT_MARIANA_DONT ALL LOOK V2.mov 
+* LOC: 00:04:52:19 magenta   VFX-  scaling from 105 to 111 and reposition
+* LOC: 00:04:57:02 magenta   VFX- text message_GT4005_SC10_TEXT_FCG_RUDE ANNOYING KNOW WHO WE ARE V2.mov
+* LOC: 00:05:29:07 magenta   VFX- text message_GT4005_SC12_TEXT_MARIANA_THEY KNOW NOW V2.mov
+* LOC: 00:05:31:08 magenta   VFX- text message_GT4005_SC12_TEXT_MARIANA_THEY KNOW NOW V3.mov
+* LOC: 00:05:46:04 magenta   VFX- text message_GT4005_SC12_TEXT_GINA_EVAN DOING HERE V2.mov
+* LOC: 00:06:25:12 magenta   VFX- text message_GT4005_SC16_TEXT_MARIANA_I HAD NO IDEA V2.mov
+* LOC: 00:06:25:12 magenta   VFX- scale 150 and reposition
+* LOC: 00:06:29:00 magenta   VFX- text message_GT4005_SC16_TEXT_MARIANA_I HAD NO IDEA V2.mov 
+* LOC: 00:06:36:16 magenta   VFX- scale 120 and reposition
+* LOC: 00:07:02:00 magenta   VFX: scale 140 and reposition
+* LOC: 00:07:10:13 yellow   Act 1 out
+* LOC: 00:07:11:01 magenta   Act 2 in
+* LOC: 00:07:16:13 magenta   ADR_GT4005_SC19_Isabella_Hey, are you oaky?
+* LOC: 00:07:41:21 magenta   ADR_GT4005_SC19_Isabella_Oh shit
+* LOC: 00:08:18:16 magenta   VFX - Wipe (TOP) B103C001_211207X6.mxf - 09:10:49:04 - (BOTTOM) B103C002_211207FW.mxf - 09:14:36:23
+* LOC: 00:08:33:15 magenta   VFX - scale 125 and reposition
+* LOC: 00:08:36:08 magenta   VFX- scale 133 and reposition
+* LOC: 00:08:40:10 magenta   VFX- text message__SC20_TEXT_JOAQUIN_STAY IN MY LOFT.mov
+* LOC: 00:08:55:12 magenta   VFX- scale 120 and reposition
+* LOC: 00:10:47:12 magenta   VFX- scale 120 and reposition
+* LOC: 00:11:35:07 yellow   Act 2 out
+* LOC: 00:11:35:20 magenta   Act 3 in
+* LOC: 00:13:55:12 magenta   VFX- scaling from 100 to 108
+* LOC: 00:13:57:15 magenta   VFX- scaling from 100 to 111
+* LOC: 00:14:12:07 magenta   VFX- scaling from 100 to 111
+* LOC: 00:14:18:22 magenta   possible ADR_GT4005_SC 24_Mariana_I couldn't tank the peach
+* LOC: 00:16:18:21 magenta   VFX- scale 120 and reposition
+* LOC: 00:16:30:00 magenta   VFX- text message_GT4005_SC07_TEXT_ANGELICA_GOING TO BED V2.mov
+* LOC: 00:16:33:11 magenta   ADR_GT4005_SC27_Costumer_Excuse me! Can I get a drink?
+* LOC: 00:18:01:16 yellow   Act 3 out
+* LOC: 00:18:02:04 magenta   Act 4 in
+* LOC: 00:18:12:05 magenta   VFX- text message_GT4005_SC30_TEXT_JOAQUIN_HANDY.mov
+* LOC: 00:18:15:21 magenta   VFX- text message_GT4005__SC30_TEXT_LUCA_WORKED CONSTRUCTION.mov
+* LOC: 00:18:25:11 magenta   VFX- text message_GT4005__SC30_TEXT_JOAQUIN_STAYING IN MY LOFT.mov
+* LOC: 00:18:28:23 magenta   VFX- scale 107 and reposition
+* LOC: 00:18:30:20 magenta   vfx - light outside window
+* LOC: 00:19:25:21 magenta   VFX- scale 107 and reposition
+* LOC: 00:19:36:07 magenta   VFX- scale 120 and reposition
+* LOC: 00:20:57:12 magenta   VFX- scale 120 and reposition
+* LOC: 00:21:01:04 magenta   VFX- scale 125 and reposition
+* LOC: 00:21:22:02 magenta   VFX- scale 120 and reposition
+* LOC: 00:21:25:17 magenta   VFX- scaling from 111 to 120 and reposition
+* LOC: 00:22:21:20 magenta   VFX- scale 107 and reposition
+* LOC: 00:23:40:02 magenta   ADR_GT4005_SC19_Isabella_Is the food ready to take up to the children's ward
+* LOC: 00:23:58:19 magenta   VFX- scale 120 and reposition
+* LOC: 00:24:28:21 magenta   flashback from 2008 
+* LOC: 00:24:30:20 magenta   flashback from 2008 
+* LOC: 00:24:33:03 magenta   flashback from 2008 
+* LOC: 00:24:36:04 magenta   flashback from???
+* LOC: 00:24:41:08 magenta   flashback from???
+* LOC: 00:24:43:08 magenta   VFX- scale 120 and reposition
+* LOC: 00:26:09:08 yellow   Act 4 out
+* LOC: 00:26:09:20 magenta   Act 5 in
+* LOC: 00:26:09:20 magenta   VFX- scale 125 and reposition
+* LOC: 00:26:13:16 magenta   flashback from??????
+* LOC: 00:26:15:12 magenta   Flashback from????
+* LOC: 00:26:16:15 magenta   VFX- scali 125 and reposition
+* LOC: 00:26:19:04 magenta   VFX- scale 125 and reposition
+* LOC: 00:26:20:22 magenta   VFX- scale 120 and reposition
+* LOC: 00:26:22:21 magenta   VFX- scale 125 and reposition  Flashback fron 2008 Cut from CTM
+* LOC: 00:26:24:19 magenta   Flashback from 2008 Cut from CTM
+* LOC: 00:26:29:07 magenta   Flashback from 1012 Cut from CTM
+* LOC: 00:26:31:20 magenta   Flashback from 2001 Cut from CTM
+* LOC: 00:26:33:03 magenta   Flashback from 2001 Cut from CTM
+* LOC: 00:26:35:22 magenta   Flashback from 2001 Cut from CTM
+* LOC: 00:27:01:03 magenta   Flashback from 3019 Cut from CTM
+* LOC: 00:27:12:23 magenta   Flashback from 3012 Cut from CTM
+* LOC: 00:27:14:17 magenta   Flashback from 3012 Cut from CTM
+* LOC: 00:27:16:02 magenta   Flashback from 3012 Cut from CTM
+* LOC: 00:27:42:06 magenta   VFX- scale 120 and reposition
+* LOC: 00:28:06:10 magenta   VFX- scaling from 125 to 100 and reposition
+* LOC: 00:28:11:03 magenta   VFX- scale 105 and reposition
+* LOC: 00:28:21:00 magenta   VFX- scale 150 and reposition
+* LOC: 00:28:29:19 magenta   VFX- scaling from 150 to 175 and reposition
+* LOC: 00:28:30:18 magenta   VFX- scaling from 125 to 200 and reposition
+* LOC: 00:30:07:01 magenta   VFX- scale 120 and reposition
+* LOC: 00:30:43:07 magenta   VFX- scale 120 and reposition
+* LOC: 00:31:06:16 magenta   VFX- scale 120 and reposition
+* LOC: 00:31:32:13 magenta   VFX- scale 125 and reposition
+* LOC: 00:32:19:01 magenta   VFX- scale 120 and reposition
+* LOC: 00:34:26:08 yellow   Act 5 out
+* LOC: 00:34:26:20 magenta   Act 6 in
+* LOC: 00:35:34:12 magenta   VFX- remove Sunkiss logo 
+* LOC: 00:35:57:15 magenta   VFX- scale 120 and reposition
+* LOC: 00:36:21:06 magenta   VFX- smooth the line on woman face
+* LOC: 00:37:03:17 magenta   VFX- smooth the line on woman face
+* LOC: 00:37:29:21 magenta   VFX- text _SC43_TEXT_LUCA_THANKS FOR LETTING ME CRASH_3.mov
+* LOC: 00:38:03:19 magenta   VFX- scaling from 100 to 115 and reposition
+* LOC: 00:38:08:15 magenta   VFX- scaling from 100 to 111 and reposition
+* LOC: 00:38:39:23 magenta   VFX- scale 120 and reposition
+* LOC: 00:38:54:19 magenta   VFX- scaling from 125 to 105 and reposition
+* LOC: 00:40:18:07 magenta   VFX- scaling from 120 to 123 and reposition
+* LOC: 00:41:16:10 magenta   VFX- scale 120 and reposition
+* LOC: 00:41:24:21 magenta   VFX- scaling from 105 to 102 and reposition
+* LOC: 00:41:30:15 yellow   Act 6 out

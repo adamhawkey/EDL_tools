@@ -1,47 +1,46 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-version: AvidMarkerList_to_Nucoda.py
+version: AvidMarkerList_to_Nucoda_0.2.py
 """
 # This works for importing an Avid Marker List (text file), tab delimited,
-# as a single event EDL, with markers preceding it.  Import and select 
-# Import Bookmarks from EDL.
+# as a single event EDL, with markers preceding it.  Select "Import Locators as Bookmarks" in the EDL import dialogue.
+
+# 20220210 - revision for Nucoda version 2021.2 no longer allowing import of timeline markers.  Need to research this more.
+# Now we will make a single event of BL (Black) with all the VFX Markers on it.  Probably better this way, as it can be rippled and moved.
 
 # import opentimelineio as otio
 import sys
 import csv
 import re
 import os
+import time
 
 print(sys.argv[0])
 marker_list, outputEDL = sys.argv[1:]
-#file1 = open(marker_list, 'r')
+date = time.ctime()
 
-header1 = ('TITLE: (converted from) {} \n').format(marker_list)
+header1 = ('TITLE: converted on {0} from {1} \n').format(date, marker_list)
 header2 = ('FCM: FILM \n')
-footer1 = ('001  Bars   V     C        00:58:00:00 00:58:30:00 00:58:00:00 00:58:30:00\n')
-footer2 = ('* LOC: 00:58:20:00 green   These are bars that can be deleted\n')
+header3 = ('001  BL   V     C        00:00:00:00 00:49:00:00 00:00:00:00 00:49:00:00\n')
 
 markerwriter = open(outputEDL, 'w')
 markerwriter.write(header1)
 markerwriter.write(header2)
+markerwriter.write(header3)
 
 with open(marker_list, newline = '') as markers:
-    #clean_markers = re.sub(r"[\x]", '_', markers) # trying to remove extra \x newline character.
-    #clean_markers = os.linesep.join([s for s in markers.splitlines() if s])
-    #re.sub(r'\n\s*\n', '\n', markers, flags=re.MULTILINE)
     lines = csv.reader(markers, delimiter='\t')
     for line in lines:
         try:
             name, timecode, layer, color, comment = line[:5]
-            #print('* LOC: {0} {1}   {2}'.format(timecode, color, comment))
             edl_line = ('* LOC: {0} {1}   {2}\n'.format(timecode, color, comment))
         except:
             edl_line = ('')
         markerwriter.write(edl_line)
 
-markerwriter.write(footer1)
-markerwriter.write(footer2)
+# markerwriter.write(footer1)
+# markerwriter.write(footer2)
 markerwriter.close()
 
 '''
