@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
 Usage:  CDL_extract_0.1.py {EDL name}
