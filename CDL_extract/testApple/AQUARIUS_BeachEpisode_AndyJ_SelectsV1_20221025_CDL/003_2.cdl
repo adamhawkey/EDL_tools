@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ViewingDescription>written with CDL_extract_0.2 by Adam Hawkey</ViewingDescription>
+<ColorDecisionList xmnls="urn:ASC:CDL:v1.01">
+    <ColorDecision>
+        <ColorCorrection>
+            <SOPNode>
+                <Slope>0.85696 0.850897 0.924707</Slope>
+                <Offset>-0.03145 -0.028369 -0.045123</Offset>
+                <Power>0.839325 0.851546 0.843312</Power>
+            </SOPNode>
+            <SatNode>
+                <Saturation>1.246499</Saturation>
+            </SatNode>
+        </ColorCorrection>
+    </ColorDecision>
+</ColorDecisionList>

@@ -1,0 +1,12 @@
+Heading
+FIELD_DELIM	TABS
+VIDEO_FORMAT	CUSTOM
+AUDIO_FORMAT	48khz
+FPS	60
+
+Column
+Name	Tracks	Start	End	Take	Tape	UNC	FPS	Reel	Scene	Shoot date	Manufacturer	Source Resolution	Source Bit Depth	DESCRIPT	Comments	Audio SR	Audio Bit Depth	Sound TC	Auxiliary TC1	KN Start	Source File Path	Display Name	Sync Audio	Sync Audio OffsetMs	Shot	Camera #	ASC_SOP	ASC_SAT	RESOLVE_SIZING	
+
+Data
+CR001_02260954_C001.mp4	VA1	09:55:06:00	09:56:14:46		1	/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4	60	1	1		DaVinci Resolve	1920x1752	8			48000	32	09:55:06:00	09:55:06:00		/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4	CR001_02260954_C001.mp4			5	C	(1.3136 0.8620 1.0195)(-0.1451 0.0628 -0.1908)(1.0995 0.9344 1.0189)	1.1080	(0.0000 0.0000 1.0000 0.0000 0.0000 0 0)	
+CR001_02260954_C001.mp4	VA1	09:55:06:00	09:56:14:46		1	/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4	60	1	1		DaVinci Resolve	1920x1752	8			48000	32	09:55:06:00	09:55:06:00		/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4	CR001_02260954_C001.mp4			5	C	(1.4820 1.0508 0.6284)(-0.1698 -0.0266 0.0168)(1.2245 1.0496 0.9337)	1.1080	(0.0000 0.0000 1.0000 0.0000 0.0000 0 0)	

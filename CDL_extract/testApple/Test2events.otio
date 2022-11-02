@@ -1,0 +1,211 @@
+{
+    "OTIO_SCHEMA": "SerializableCollection.1",
+    "metadata": {
+        "ALE": {
+            "columns": [
+                "Name",
+                "Tracks",
+                "Start",
+                "End",
+                "Take",
+                "Tape",
+                "UNC",
+                "FPS",
+                "Reel",
+                "Scene",
+                "Shoot date",
+                "Manufacturer",
+                "Source Resolution",
+                "Source Bit Depth",
+                "DESCRIPT",
+                "Comments",
+                "Audio SR",
+                "Audio Bit Depth",
+                "Sound TC",
+                "Auxiliary TC1",
+                "KN Start",
+                "Source File Path",
+                "Display Name",
+                "Sync Audio",
+                "Sync Audio OffsetMs",
+                "Shot",
+                "Camera #",
+                "ASC_SOP",
+                "ASC_SAT",
+                "RESOLVE_SIZING",
+                ""
+            ],
+            "header": {
+                "AUDIO_FORMAT": "48khz",
+                "FIELD_DELIM": "TABS",
+                "FPS": "60",
+                "VIDEO_FORMAT": "CUSTOM"
+            }
+        }
+    },
+    "name": "",
+    "children": [
+        {
+            "OTIO_SCHEMA": "Clip.2",
+            "metadata": {
+                "ALE": {
+                    "": "",
+                    "Audio Bit Depth": "32",
+                    "Audio SR": "48000",
+                    "Auxiliary TC1": "09:55:06:00",
+                    "Camera #": "C",
+                    "Comments": "",
+                    "DESCRIPT": "",
+                    "Display Name": "CR001_02260954_C001.mp4",
+                    "FPS": "60",
+                    "KN Start": "",
+                    "Manufacturer": "DaVinci Resolve",
+                    "Name": "CR001_02260954_C001.mp4",
+                    "RESOLVE_SIZING": "(0.0000 0.0000 1.0000 0.0000 0.0000 0 0)",
+                    "Reel": "1",
+                    "Scene": "1",
+                    "Shoot date": "",
+                    "Shot": "5",
+                    "Sound TC": "09:55:06:00",
+                    "Source Bit Depth": "8",
+                    "Source File Path": "/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4",
+                    "Source Resolution": "1920x1752",
+                    "Sync Audio": "",
+                    "Sync Audio OffsetMs": "",
+                    "Take": "",
+                    "Tape": "1",
+                    "Tracks": "VA1",
+                    "UNC": "/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4"
+                },
+                "cdl": {
+                    "asc_sat": 1.108,
+                    "asc_sop": {
+                        "offset": [
+                            -0.1451,
+                            0.0628,
+                            -0.1908
+                        ],
+                        "power": [
+                            1.0995,
+                            0.9344,
+                            1.0189
+                        ],
+                        "slope": [
+                            1.3136,
+                            0.862,
+                            1.0195
+                        ]
+                    }
+                }
+            },
+            "name": "CR001_02260954_C001.mp4",
+            "source_range": {
+                "OTIO_SCHEMA": "TimeRange.1",
+                "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 60.0,
+                    "value": 4126.0
+                },
+                "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 60.0,
+                    "value": 2142360.0
+                }
+            },
+            "effects": [],
+            "markers": [],
+            "enabled": true,
+            "media_references": {
+                "DEFAULT_MEDIA": {
+                    "OTIO_SCHEMA": "MissingReference.1",
+                    "metadata": {},
+                    "name": "",
+                    "available_range": null,
+                    "available_image_bounds": null
+                }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA"
+        },
+        {
+            "OTIO_SCHEMA": "Clip.2",
+            "metadata": {
+                "ALE": {
+                    "": "",
+                    "Audio Bit Depth": "32",
+                    "Audio SR": "48000",
+                    "Auxiliary TC1": "09:55:06:00",
+                    "Camera #": "C",
+                    "Comments": "",
+                    "DESCRIPT": "",
+                    "Display Name": "CR001_02260954_C001.mp4",
+                    "FPS": "60",
+                    "KN Start": "",
+                    "Manufacturer": "DaVinci Resolve",
+                    "Name": "CR001_02260954_C001.mp4",
+                    "RESOLVE_SIZING": "(0.0000 0.0000 1.0000 0.0000 0.0000 0 0)",
+                    "Reel": "1",
+                    "Scene": "1",
+                    "Shoot date": "",
+                    "Shot": "5",
+                    "Sound TC": "09:55:06:00",
+                    "Source Bit Depth": "8",
+                    "Source File Path": "/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4",
+                    "Source Resolution": "1920x1752",
+                    "Sync Audio": "",
+                    "Sync Audio OffsetMs": "",
+                    "Take": "",
+                    "Tape": "1",
+                    "Tracks": "VA1",
+                    "UNC": "/Users/ahawkey/Library/CloudStorage/Box-Box/IMT Production Master/FY2022/22-02 - TRINITY/TRINITY_Post/Dailies Previews/ShootDay01_220226/2D_Dailies/CR001_02260954_C001.mp4"
+                },
+                "cdl": {
+                    "asc_sat": 1.108,
+                    "asc_sop": {
+                        "offset": [
+                            -0.1698,
+                            -0.0266,
+                            0.0168
+                        ],
+                        "power": [
+                            1.2245,
+                            1.0496,
+                            0.9337
+                        ],
+                        "slope": [
+                            1.482,
+                            1.0508,
+                            0.6284
+                        ]
+                    }
+                }
+            },
+            "name": "CR001_02260954_C001.mp4",
+            "source_range": {
+                "OTIO_SCHEMA": "TimeRange.1",
+                "duration": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 60.0,
+                    "value": 4126.0
+                },
+                "start_time": {
+                    "OTIO_SCHEMA": "RationalTime.1",
+                    "rate": 60.0,
+                    "value": 2142360.0
+                }
+            },
+            "effects": [],
+            "markers": [],
+            "enabled": true,
+            "media_references": {
+                "DEFAULT_MEDIA": {
+                    "OTIO_SCHEMA": "MissingReference.1",
+                    "metadata": {},
+                    "name": "",
+                    "available_range": null,
+                    "available_image_bounds": null
+                }
+            },
+            "active_media_reference_key": "DEFAULT_MEDIA"
+        }
+    ]
+}

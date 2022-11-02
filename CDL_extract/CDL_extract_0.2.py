@@ -1,13 +1,9 @@
 #!/usr/local/bin/python3
 # -*- coding: utf-8 -*-
 """
-Usage:  CDL_extract_0.1.py {EDL name}
+Usage:  CDL_extract_0.2.py {EDL or ALE name}
 """
-
-### Will write individual CDL files from a CDL-EDL (a least the kind that gets sent to Culley).
-### If the edl uses different CDL values for different events with the same source file, source clip, or reel,
-### the only way to name the .cdl's without the possibility of overwriting earlier events is to
-### use the locator name if it's provided, like: *LOC: 01:00:02:16 CYAN    PNK_K1214_REH_080
+### First major revision to be able to input a Resolve ALE with CDL values and make .cc files.
 
 import opentimelineio as otio
 import sys
@@ -17,13 +13,13 @@ import os
 if len(sys.argv) < 2:
     print('Not enough arguments.', __doc__)
     sys.exit()
-inputEDL = sys.argv[1]
+inputFile = sys.argv[1]
 
-timeline = otio.adapters.read_from_file(inputEDL, ignore_timecode_mismatch=True)
+timeline = otio.adapters.read_from_file(inputFile, ignore_timecode_mismatch=True)
 # ignore_timecode_mismatch=True (allows source tc and dur to not match record tc)
 
-num = 0 #counter for multiple duplicate clipnames
-outFolder, ext = inputEDL.split('.', 1)
+num = 0 #counter for multiple duplicate clip_names.
+outFolder, ext = inputFile.split('.', 1)
 
 try:
     os.mkdir(outFolder)  # if folder exists, it warns you and exits.
@@ -38,11 +34,11 @@ except:
         exit()
 
 def writeCDL():     #writes individual .cdl files in current folder
-    outputCDL = ('{}.cdl'.format(markers))
+    outputCDL = ('{}.cdl'.format(clip_name))
     print('writing: {}'.format(outputCDL))
     writeCDL = open("{0}/{1}".format(outFolder, outputCDL), 'w')    # write the output cdl file
     writeCDL.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-    writeCDL.write('<ViewingDescription>written with CDL_extract by Adam Hawkey</ViewingDescription>\n')
+    writeCDL.write('<ViewingDescription>written with CDL_extract_0.2 by Adam Hawkey</ViewingDescription>\n')
     writeCDL.write('<ColorDecisionList xmnls="urn:ASC:CDL:v1.01">\n')
     writeCDL.write('    <ColorDecision>\n')
     writeCDL.write('        <ColorCorrection>\n')
@@ -60,15 +56,13 @@ def writeCDL():     #writes individual .cdl files in current folder
     writeCDL.close()
 
 for clip in timeline.each_clip():
-    print(clip)
-    clipname = clip.name
-    print(clipname)
-    try:
-        markers = clip.markers[0].name  # I still can't understand why markers isn't parsed into metadata.
-    except:
-        markers = '{0}_{1}'.format(clipname, num)  #this is only if there is no locator present.  will not help if there are multiple clips with same clipname.
-        num = num + 1   #this increments the value after the name incase there is a duplicate.  Would be better if I checked if an identical filename exists, and only increment then.
-    print(markers)
+    clip_name = clip.name
+#    try:
+#        clip_name = clip.name[0].name
+#    except:
+#        clip_name = '{0}_{1}'.format(clip_name, num)  #this is only if there is no locator present.  will not help if there are multiple clips with same clip_name.
+#        num = num + 1   #this increments the value after the name incase there is a duplicate.  Would be better if I checked if an identical filename exists, and only increment then.
+
     try:
         cdl = clip.metadata['cdl']
         asc_sat = cdl['asc_sat']
@@ -76,8 +70,15 @@ for clip in timeline.each_clip():
         asc_slope = asc_sop['slope']
         asc_offset = asc_sop['offset']
         asc_power = asc_sop['power']
+
+        ale_meta = clip.metadata.get('ALE')
+        print(clip_name)
+        print(ale_meta)
+        #ale = clip.metadata['ALE']
+        #tapename = ale['Tape']
+        
         print(cdl)
-        writeCDL()  #write the output cdl file.
+        #writeCDL()  #write the output cdl file.
     except:
-        print('No CDL values present for {}'.format(markers))
+        print('No CDL values present for {}'.format(clip_name))
 
